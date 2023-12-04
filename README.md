@@ -7,3 +7,7 @@ hugo new blog/yyyymmdd.md
 hugo server -D
 hugo server
 ```
+
+```
+git submodule update --remote --merge
+```
