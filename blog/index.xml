@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Blogs on Maeken's blog</title><link>https://maeken2010.github.io/blog/</link><description>Recent content in Blogs on Maeken's blog</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sun, 08 Oct 2023 15:31:38 +0900</lastBuildDate><atom:link href="https://maeken2010.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>ハッカーズチャンプルー2023に行ってきたよ</title><link>https://maeken2010.github.io/blog/20231007/</link><pubDate>Sun, 08 Oct 2023 15:31:38 +0900</pubDate><guid>https://maeken2010.github.io/blog/20231007/</guid><description>ハッカーズチャンプルー2023に行ってきました。同窓会みたいで楽しかったです。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Blogs on Maeken's blog</title><link>https://maeken2010.github.io/blog/</link><description>Recent content in Blogs on Maeken's blog</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sat, 02 Dec 2023 21:42:09 +0900</lastBuildDate><atom:link href="https://maeken2010.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>後輩たちとTDDモブプロでわいわいしてきた</title><link>https://maeken2010.github.io/blog/20231202/</link><pubDate>Sat, 02 Dec 2023 21:42:09 +0900</pubDate><guid>https://maeken2010.github.io/blog/20231202/</guid><description>isseiさんと一緒に大学でTDDをモブプロでわいわいしてきました。楽しかった〜
+開催のきっかけは、TDDワイワイ会®が好きでまたやりたい自分と後輩集めて勉強会開きたいisseiさんで需要の一致があってそれで開催しました。
+isseiさんが後輩を集めてきてくれて、学部生、院生、OB、結構幅広く来てくれました。縦の繋がりが生まれるきっかけにもなってよかったかも。
+会場は大学のいつもの教室。教室貸出に我らがnkmr先生にご協力いただきましたありがとうございます。
+人数は全部で10人くらいで2島作った。流れは本家に合わせて、チェックイン→最初のモブ→休憩→2回目のモブ→ふりかえりでやりました。
+TDDやモブプロを学ぶ目的だけど初回だしまずはワイワイできることを意識しました。結果的にみんな楽しめたみたいで非常に嬉しかった。TDDもモブプロも普段はやらないから新鮮みたいでよかった。
+前半はfizz buzz、後半はおまかせ。毎回fizz buzzだけどやる度に違う書き方になるから面白い。実装とテストのコードがほぼ同じだけどこれはええんか、とか標準出力のテストってどうやるんだ、とかの議論もできた。
+ちょっと話が逸れるけど、最近読んだtwadaさんのTDDの記事でtwadaさんが
+TODOリストの作成はTDDの中でも一番難しい部分
+と言っていてめっちゃわかるやっぱそうか、となった。 実際今回も、TODOリストの作成に最初は少し戸惑っていたっぽいからとりあえず洗い出して進めてみてまだ後でいくらでも直せるということを伝えた。
+運営的な反省点は、
+お菓子用意しとけばよかった。頭使うし砂糖必要。 最後のふりかえり、感想を一言話してもらうものにしたけどそれだけじゃなくてやっぱ何かしら形に残せるものでやればよかったかな〜付箋とペン用意してFUN DONE LEARNやって写真に残したかった、履歴にもなるし 打ち上げのときに、会社で真似して勉強会やってみようかなと言ってくれた人も居た。広がるわいわいの輪。 あと、次回あったらお手伝いします！って言ってくれる後輩も居て涙ちょちょぎれ。また開催するぞ。
+関係ないけど大学が久しぶりで懐かしすぎた。久しぶりに食堂も行った。めっちゃ食った。
+懐かしすぎ</description></item><item><title>ハッカーズチャンプルー2023に行ってきたよ</title><link>https://maeken2010.github.io/blog/20231007/</link><pubDate>Sun, 08 Oct 2023 15:31:38 +0900</pubDate><guid>https://maeken2010.github.io/blog/20231007/</guid><description>ハッカーズチャンプルー2023に行ってきました。同窓会みたいで楽しかったです。
 ハッカーズチャンプルーは自分が大学生の時（7年前ぐらい？）に大学でやっていた時以来の参加でした。コロナも収まってきたし自分も沖縄に戻ってきているしいい機会だと思って参加してみました。
 ちょっと前から沖縄の勉強会やカンファレンスに参加するようになって、そこで知り合った人や大学の後輩ができて今回のハッカーズチャンプルーもまた会いましたねって人が多かった。地方のカンファレンスはこういうのがあるから楽しい。
 それ以外にも久しぶりに会った人もたくさんいた。自分が院生の時に参加したハッカソンで同じチームで当時は学部1年生だった子が今院2年生として参加してた。ハッカソン以来だったから完全に親戚のおじさんの気分だった。大きくなったねえ〜
