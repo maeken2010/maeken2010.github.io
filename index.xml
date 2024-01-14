@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Maeken's blog</title><link>https://maeken2010.github.io/</link><description>Recent content on Maeken's blog</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sat, 02 Dec 2023 21:42:09 +0900</lastBuildDate><atom:link href="https://maeken2010.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>後輩たちとTDDモブプロでわいわいしてきた</title><link>https://maeken2010.github.io/blog/20231202/</link><pubDate>Sat, 02 Dec 2023 21:42:09 +0900</pubDate><guid>https://maeken2010.github.io/blog/20231202/</guid><description>isseiさんと一緒に大学でTDDをモブプロでわいわいしてきました。楽しかった〜
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Maeken's blog</title><link>https://maeken2010.github.io/</link><description>Recent content on Maeken's blog</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sun, 14 Jan 2024 11:41:30 +0900</lastBuildDate><atom:link href="https://maeken2010.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>スクラムギャザリング2024に参加してきました</title><link>https://maeken2010.github.io/blog/20240114/</link><pubDate>Sun, 14 Jan 2024 11:41:30 +0900</pubDate><guid>https://maeken2010.github.io/blog/20240114/</guid><description>スクラムギャザリングに今年も参加してきました。 前回2023はオフラインチケットが取れなくてオンランで参加していて、楽しかったけどやっぱりオフラインでわいわいしたいな…と気づいたので10月からチケット争奪戦をして無事オフラインチケットが取れました
+廊下 講演はアーカイブ配信があるし、せっかく現地に居るなら誰かと話すのを優先したほうがいいのでは…？と気づいた。 いつもは講演を聞いてメモをとってるけど、今回はついに廊下メモができた。 だから講演よりも人と話す方を優先した時間もあった。
+大学の後輩に偶然出会えた。自分が四年生の時に一年生で、その時に自分がプログラミング授業の勉強会をしてた時にお世話になったとのこと。昔の自分偉すぎる。
+沖縄でTDDワイワイ会®️とコードリトリートをやりたいと思っていて、沖縄スクフェスでも話したけど今回はワイワイ会メンバーもいわむーさんも居たので折角だから集まって話した。廊下で見かけたら捕まえて話しましょ、と声をかけた。3日目のOSTの後のランチタイムで話せたのでよかった。
+メモと気づきを分けた 少し前からobsidianを使って発見カードをつけている。発見カードは知的生産の技術を読んでから実践しているやつ。
+すごいざっくり言うと心に浮かんだアイディアはノートじゃなくてカードにする。1アイディアに1カード。分類、並び替え、整理、持ち運びがやりやすいし見返しやすい。カード同士からカードを作ることもできる。これはzettelkastenと似ている。
+で、講演を聞きながら気づいたこともカードにすることにした。今までは1つのテキストファイルに書いていたけど時間が経つと見返すのがむずかしい。
+やってみると結構いい感じ。スクラムギャザリングとは関係をないような一般化されたアイディアを他のカードと同じように管理することで見返しの対象になるし良くなりそう。
+英語 英語、やっぱできる人はかっこいいなと気づいた。keynoteに英語の講演があって同時通訳もあるけどやっぱり直に聴きたいし、質問も英語でしたい。英語で質問しているひとカッコ良すぎる。
+狩野先生のすごさ 最終日の最後のkeynoteは狩野モデルでお馴染みの狩野先生の講演。狩野先生が最初の方で『狩野モデルの人は大豪邸に住んでいてとっくの昔に亡くなっているとよく言われる』と話していたけど、すいません、自分もそう思ってました…
+狩野モデルは直感的にも経験的にも腑に落ちるし実際にこれを使ってプロダクトバックログの優先順位付けに使ったこともある。最初に知ったのはアジャイルな見積もりと計画作りの本。そこでは狩野モデルの概要は書かれていたけど今回keynoteでは狩野モデルの背景が特に話されていてとても面白かった。アリストテレスが出てきたのが印象的だった。
+質問タイムも、まる事前に打ち合わせしていたかのようにドンピシャのスライドがあってすごかった。狩野先生も『答えられない質問があるということは、まだ生きている価値があるということ』と話していていやカッコよと思った。狩野先生のファンになりました。より深く知りたいと思ったし、講演も聞きたい。
+次も参加するぞ スクラムギャザリング、やっぱり最高。来年も絶対に参加するぞ。</description></item><item><title>後輩たちとTDDモブプロでわいわいしてきた</title><link>https://maeken2010.github.io/blog/20231202/</link><pubDate>Sat, 02 Dec 2023 21:42:09 +0900</pubDate><guid>https://maeken2010.github.io/blog/20231202/</guid><description>isseiさんと一緒に大学でTDDをモブプロでわいわいしてきました。楽しかった〜
 開催のきっかけは、TDDワイワイ会®が好きでまたやりたい自分と後輩集めて勉強会開きたいisseiさんで需要の一致があってそれで開催しました。
 isseiさんが後輩を集めてきてくれて、学部生、院生、OB、結構幅広く来てくれました。縦の繋がりが生まれるきっかけにもなってよかったかも。
 会場は大学のいつもの教室。教室貸出に我らがnkmr先生にご協力いただきましたありがとうございます。
