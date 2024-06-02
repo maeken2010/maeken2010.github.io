@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Maeken's blog</title><link>https://maeken2010.github.io/</link><description>Recent content on Maeken's blog</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sun, 14 Jan 2024 11:41:30 +0900</lastBuildDate><atom:link href="https://maeken2010.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>スクラムギャザリング2024に参加してきました</title><link>https://maeken2010.github.io/blog/20240114/</link><pubDate>Sun, 14 Jan 2024 11:41:30 +0900</pubDate><guid>https://maeken2010.github.io/blog/20240114/</guid><description>スクラムギャザリングに今年も参加してきました。 前回2023はオフラインチケットが取れなくてオンランで参加していて、楽しかったけどやっぱりオフラインでわいわいしたいな…と気づいたので10月からチケット争奪戦をして無事オフラインチケットが取れました
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Maeken's blog</title><link>https://maeken2010.github.io/</link><description>Recent content on Maeken's blog</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Fri, 24 May 2024 18:00:00 +0900</lastBuildDate><atom:link href="https://maeken2010.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>環境の紹介2024</title><link>https://maeken2010.github.io/blog/20240525/</link><pubDate>Fri, 24 May 2024 18:00:00 +0900</pubDate><guid>https://maeken2010.github.io/blog/20240525/</guid><description>はじめに 開発環境が揃ってきたからまとめてみようと思う。
+環境 物理的な環境とソフトウェアの環境のそれぞれでまとめる
+物理 PC Mac派。仕事もプライベートもMacBook Pro。
+デスクで使うときはスタンドで高くして画面を見下さずに見れるようにしている。
+エレコム PCA-LTSFAH20SV https://www.elecom.co.jp/products/PCA-LTSFAH20SV.html
+椅子 体に触れるものであるほど金をかけるべし、という格言に則って一番金をかけている。
+エルゴヒューマン2(ergohuman2) https://amzn.asia/d/0fnZOY2
+机 机はこだわりは無くてニトリの机を使っている
+デスク(N ステイン 120 BR) https://www.nitori-net.jp/ec/product/6200337/
+ただ、最近は狭くなってきたからもっと広い机にしたいと思っている
+今だとこれが気になる。広いし高さの調整も可能でおしゃれ。
+twig https://borderless-shop.com/products/twig-%E5%A4%A9%E6%9D%BF-finland-birch
+キーボード1 メカニカルキーボードの存在を知ってからはFILCO Majestouch、そこからen配列、60％キーボード、と渡り、現在は分割キーボードを使ってる。
+Moonlander https://www.zsa.io/moonlander
+配列が直行しているキーボードをオーソリニアと言うらしい。直行している方が合理的にもタイプし易いのでは？と思い選んでみた。 最初はかなり打ちづらかったが慣れるとオーソリニア以外はもう考えられない体になってしまった。
+キーバインドはQMKで設定できるのでキーボード自体にキーバインドの設定が入る。なので仕事PCとプライベートPC関係なく同じキーバインドが使える。
+キーキャップもいろんな種類があって軸も色々あって…キーボード沼に片足を突っ込んでいます。
+キーボード2 持ち運び用にはMoonlanderと同じところのPlanck EZ(40%キーボード)を使っている。
+が、この前発売を終了してしまった…残念
+トラックボール マウスじゃなくてトラックボール派
+ワイヤレストラックボール https://www.elecom.co.jp/products/M-HT1DRBK.html
+最近丁度壊れてしまって今はマウス使っている。 なんかトラックボールって壊れやすい気がしている、丈夫なトラックボールないですか…？
+モニター でかいモニターは正義
+Dell S2721QS 27インチ 4K https://amzn.asia/d/gcs6q6C
+マイク マイク内蔵のイヤホンを使っていたけど音質が悪く、リモートワーク作業なのでなるべく聞く方がストレスにならないように単一指向性のスタンドマイクにした
+FIFINE USBコンデンサーマイクマイク https://amzn.asia/d/9rvJDbf
+スピーカー 作業用のBGMを流す用。イヤホンつけっぱなしは耳に悪いらしいので、通話以外はなるべくスピーカーを使ってる
+Anker Soundcore 3 https://amzn.asia/d/5W7QZrG
+本棚 本は物理派なので本棚を作業机の側に置いている。 無印のスタッキングシェルフ気に入ってる。組み立ても楽だし拡張も可能、なにより丈夫。
+スタッキングシェルフセット・３段×２列・オーク材 https://www.muji.com/jp/ja/store/cmdty/detail/4549337263970
+ソフトウェア ターミナル wezterm https://wezfurlong.</description></item><item><title>スクラムギャザリング2024に参加してきました</title><link>https://maeken2010.github.io/blog/20240114/</link><pubDate>Sun, 14 Jan 2024 11:41:30 +0900</pubDate><guid>https://maeken2010.github.io/blog/20240114/</guid><description>スクラムギャザリングに今年も参加してきました。 前回2023はオフラインチケットが取れなくてオンランで参加していて、楽しかったけどやっぱりオフラインでわいわいしたいな…と気づいたので10月からチケット争奪戦をして無事オフラインチケットが取れました
 廊下 講演はアーカイブ配信があるし、せっかく現地に居るなら誰かと話すのを優先したほうがいいのでは…？と気づいた。 いつもは講演を聞いてメモをとってるけど、今回はついに廊下メモができた。 だから講演よりも人と話す方を優先した時間もあった。
 大学の後輩に偶然出会えた。自分が四年生の時に一年生で、その時に自分がプログラミング授業の勉強会をしてた時にお世話になったとのこと。昔の自分偉すぎる。
 沖縄でTDDワイワイ会®️とコードリトリートをやりたいと思っていて、沖縄スクフェスでも話したけど今回はワイワイ会メンバーもいわむーさんも居たので折角だから集まって話した。廊下で見かけたら捕まえて話しましょ、と声をかけた。3日目のOSTの後のランチタイムで話せたのでよかった。
