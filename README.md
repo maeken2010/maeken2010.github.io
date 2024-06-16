@@ -1,6 +1,6 @@
 # maeken2010.github.io
 
-https://maeken2010.github.io/
+https://blog.maeken2010.dev/
 
 ```
 hugo new blog/yyyymmdd.md
