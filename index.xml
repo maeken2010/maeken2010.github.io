@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Maeken's blog</title><link>https://maeken2010.github.io/</link><description>Recent content on Maeken's blog</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Fri, 24 May 2024 18:00:00 +0900</lastBuildDate><atom:link href="https://maeken2010.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>環境の紹介2024</title><link>https://maeken2010.github.io/blog/20240525/</link><pubDate>Fri, 24 May 2024 18:00:00 +0900</pubDate><guid>https://maeken2010.github.io/blog/20240525/</guid><description>はじめに 開発環境が揃ってきたからまとめてみようと思う。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Maeken's blog</title><link>https://maeken2010.github.io/</link><description>Recent content on Maeken's blog</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sat, 15 Jun 2024 23:50:18 +0900</lastBuildDate><atom:link href="https://maeken2010.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>ブログのドメインを変えました</title><link>https://maeken2010.github.io/blog/20240615/</link><pubDate>Sat, 15 Jun 2024 23:50:18 +0900</pubDate><guid>https://maeken2010.github.io/blog/20240615/</guid><description>概要 ブログのurlが https://maeken2010.github.io/ から https://blog.maeken2010.dev/ になりました
+なぜ変えたのか いちエンジニアとして自分のドメインぐらい持っておくか、じゃあブログもついでに買ったドメインに対応しよう、というのが動機
+どうやったのか cloudflareでドメインを買いました。迷ったらとりあえず有名なところから買う主義。
+ドメインの選定 エンジニアっぽいドメインをこの記事を参考に探してみた。 この記事読んで知ったけど.ioとかって国別コードだったんですね、国別コードを個人のドメインとして使うのは本来の目的とは違うんじゃない？という謎の正義感が生まれたので.devにしました。
+ページの構成 https://maeken2010.dev →自分の紹介ページ https://blog.maeken2010.dev →このブログ 紹介ページ https://maeken2010.dev
+ドメイントップの紹介ページはhtmlファイルのみの無骨なページが良いという美学があるので超シンプル。
+レポジトリはこれ https://github.com/maeken2010/MyPages
+デプロイはcloudflareのPagesを使ってる。無料で便利。
+ブログ https://blog.maeken2010.dev
+ブログはこれまでと同じでgithub pagesでデプロイ
+レポジトリはこれ https://github.com/maeken2010/maeken2010.github.io
+DNS ブログはblogサブドメインになるようにレコードを追加。
+その後にgithub pagesでカスタムドメインの設定をする。
+プロキシをするとcloudflareでいい感じになって早くなるらしいがgithub pages側の設定がうまくいかなかったので外している
+今後 自分がエンジニアとしている間はこのドメインでポートフォリオ的なものになるといいな〜</description></item><item><title>環境の紹介2024</title><link>https://maeken2010.github.io/blog/20240525/</link><pubDate>Fri, 24 May 2024 18:00:00 +0900</pubDate><guid>https://maeken2010.github.io/blog/20240525/</guid><description>はじめに 開発環境が揃ってきたからまとめてみようと思う。
 環境 物理的な環境とソフトウェアの環境のそれぞれでまとめる
 物理 PC Mac派。仕事もプライベートもMacBook Pro。
 デスクで使うときはスタンドで高くして画面を見下さずに見れるようにしている。
