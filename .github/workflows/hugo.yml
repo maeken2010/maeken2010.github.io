@@ -27,7 +27,7 @@ jobs:
         run: hugo --minify
 
       - name: create CNAME
-        run: touch public/CNAME && echo ${{ secrets.CNAME }} >> dist/CNAME
+        run: touch public/CNAME && echo ${{ secrets.CNAME }} >> public/CNAME
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
