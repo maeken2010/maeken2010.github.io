@@ -26,6 +26,9 @@ jobs:
       - name: Build
         run: hugo --minify
 
+      - name: create CNAME
+        run: touch public/CNAME && echo ${{ secrets.CNAME }} >> dist/CNAME
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/master'
