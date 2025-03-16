@@ -5,6 +5,10 @@ theme = "PaperMod"
 googleAnalytics = "G-XM1ZYSQ1EX"
 
 [params]
+  images = [
+    'default/default-cover.png'
+  ]
+
   [params.homeInfoParams]
   Title = "Hi there 🍺"
   Content = "Welcome to my blog"
@@ -20,3 +24,5 @@ googleAnalytics = "G-XM1ZYSQ1EX"
   [[params.socialIcons]]
   name = "github"
   url = "https://github.com/maeken2010"
+  
+   
