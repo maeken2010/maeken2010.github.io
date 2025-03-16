@@ -1,197 +1,555 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Blogs on Maeken's blog</title><link>https://maeken2010.github.io/blog/</link><description>Recent content in Blogs on Maeken's blog</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sat, 15 Mar 2025 14:28:09 +0900</lastBuildDate><atom:link href="https://maeken2010.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>ミートソースの作り方</title><link>https://maeken2010.github.io/blog/20250315/</link><pubDate>Sat, 15 Mar 2025 14:28:09 +0900</pubDate><guid>https://maeken2010.github.io/blog/20250315/</guid><description>はじめに いつも作っているミートソースの作り方を紹介します。 このレシピは自分の親が作っていたレシピを元に、自分なりに改良していったものです。一人暮らしのときもよく大量に作って冷凍して作り置きしてました。
-レシピの特徴としてはこんな感じ
-ケチャップは使わずに甘すぎない セロリ多めでさっぱり ひき肉だけじゃなくベーコンも使ってコクを追加 レシピ 材料 たまねぎ 1つ にんじん 1つ セロリ 2本 ニンニク 2ケ ベーコン 1パック スライスでもブロックでも 牛ひき肉 330gぐらい 豚肉でも合いびき肉でも良い。個人的な好みは牛。 トマト缶 2つ カットトマト缶が無難。ホールトマト缶だと果肉感が残ってこれはこれで美味しい。 コンソメキューブ 1つ ローレル ４枚 ナツメグ 塩 コショウ オリーブオイル 作り方 野菜をすべてみじん切りにする
-ベーコンとにんにくを切る ベーコンはみじん切りでもいいし、ブロックをサイコロ状に切ってもいい。お好みで。
-ひき肉に塩を振っておく
-正確にやるなら、肉の重量の１％の塩を振る
-鍋にオリーブオイル、刻んだニンニクを入れて火をつけて香りを出す。オリーブオイルは気持ち多めに。
-ベーコンを入れて炒める 香りが立ったらみじん切りした野菜を入れる。 この時に塩小さじ１入れると時間短縮になる。
-野菜が透明になってしんなりするまで炒める。
-鍋の火を止めて置いておく。 別のフライパンに火をかけてひき肉を入れる。
-このときにひき肉は動かさない。でかいハンバーグを作るイメージでしっかり焼色をつける。 油がたくさん出てくるので取るとさっぱり。取らなくてもコクになるので良い。
-裏返して片面にも焼色をつける。
-火が通ったらひき肉を鍋に入れる。
-フライパンにこびりついたものを水でとかして鍋に入れる(デグラッセと言うらしい)。 水の代わりに赤ワインを使うと大人向けの味。いつもは水でやってます。
-火をつけてトマト缶を入れる。 ローレルに切り込み入れて入れる。コンソメキューブ１つ入れる。
-もし時間を短縮したい場合、この後の水を入れて煮込む作業を飛ばしても十分美味い。
-トマト缶１つぶんの水を入れて、蓋をずらして1時間弱煮込む
-コショウとナツメグ入れて味見、その後塩で調整。野菜炒める時やひき肉に塩を入れていた場合、追加で塩を入れなくても丁度良い場合があるので必ず味見してから塩を入れる。
-夏の暑い時期は気持ち多めに塩を入れると美味しい。
-もしすぐに食べないなら、粗熱を取って冷蔵庫で冷ますと味が馴染んでより美味しいです。
-茹でたスパゲティに温めたミートソースをかけたら完成！
-仕上げの時、ソースやケチャップをあえて入れても美味しい。ナツメグの代わりにカレー粉をほんの少し入れても美味しい。
-参考 ひき肉の炒め方はこれを参考にしました
-https://note.com/travelingfoodlab/n/na0d98a2583b1
-水で煮込む重要性はこれ
-https://www.youtube.com/watch?v=x4uw70xMPRc</description></item><item><title>新しい日本語入力SKKに挑戦してみる</title><link>https://maeken2010.github.io/blog/20241228/</link><pubDate>Sat, 28 Dec 2024 13:36:32 +0900</pubDate><guid>https://maeken2010.github.io/blog/20241228/</guid><description>https://zenn.dev/mtgto/articles/macskk-karabiner-settings-for-ghostty
-Ghostty の記事を読んでいたらSKKという入力方法の話しが出てきた。知らないものだったので調べてみたら興味が出てきたので導入してみた。
-これは良い https://dic.nicovideo.jp/a/skk
-どんなものなのかは上記などのネットの記事を読むと分かると思う。形態素解析に頼らずにどれが漢字なのか、送り仮名はどれかを明示していく方法。 かなり独特な変換方法で慣れるまでは時間がかかりそうだが、一度慣れたら最高という言葉には弱いので使ってみる。
-やったこと macにはmacSKK、vimにはskkeletonを使っている。 今この記事も練習もかねてSKKで書いている。
-skkeleton導入は以下の記事を参考にした
-https://kankodori-blog.com/posts/2024-06-30/
-Lvimを使っているのでプラグインはこんな感じ
-lvim.plugins = { ... { &amp;#34;vim-denops/denops.vim&amp;#34;, lazy = false, priority = 500, }, { &amp;#34;vim-skk/skkeleton&amp;#34; }, } 設定はこう。macSKKと使っている辞書を共通にしてみた。
-vim.api.nvim_set_keymap(&amp;#39;i&amp;#39;, &amp;#39;&amp;lt;C-j&amp;gt;&amp;#39;, &amp;#39;&amp;lt;Plug&amp;gt;(skkeleton-enable)&amp;#39;, {noremap = true}) vim.api.nvim_set_keymap(&amp;#39;c&amp;#39;, &amp;#39;&amp;lt;C-j&amp;gt;&amp;#39;, &amp;#39;&amp;lt;Plug&amp;gt;(skkeleton-enable)&amp;#39;, {noremap = true}) vim.fn[&amp;#39;skkeleton#config&amp;#39;]({ globalDictionaries = { &amp;#34;~/Library/Containers/net.mtgto.inputmethod.macSKK/Data/Documents/Dictionaries/SKK-JISYO.L&amp;#34;, }, userDictionary = &amp;#34;~/Library/Containers/net.mtgto.inputmethod.macSKK/Data/Documents/Dictionaries/skk-jisyo.utf8&amp;#34;, eggLikeNewline = true, keepState = true, showCandidatesCount = 2, registerConvertResult = true, }) ユーザー辞書はiCloudに置いたほうがいいかも？プライベートな内容だし。
-利点 しばらく使ってみて感じた利点をまとめる
-流れるように書ける 1つずつ変換を確定していくので、変換中に修正することがないのが快適。ひらがなはいちいちエンターキーで確定する必要も無いのでタイプ数は若干減っているように感じる。</description></item><item><title>チェコに行ってきた - チェコ編</title><link>https://maeken2010.github.io/blog/20241112/</link><pubDate>Thu, 14 Nov 2024 20:38:25 +0900</pubDate><guid>https://maeken2010.github.io/blog/20241112/</guid><description>前回の続き。
-3日目 2日目の夕方にチェコに到着してホテルにチェックインできたが早々にダウン。 予定では早速ビール飲みに行くぞ〜と思ってたけど出来ず…早めに寝た。
-ちなみにホテルはめちゃくちゃキレイだった。貴族になった気分。 テーブルに果物盛り合わせもあった。 3日目は朝からプラハ観光。町並みが全部超きれいだった。
-プラハ城 まず最初にプラハ城観光。城という名前がついているけど城は無くて、大聖堂や教会とかが集合しているデカい場所。
-聖ヴィード大聖堂 中は超広い ステンドグラス超きれい 聖イジー聖堂 聖イジー聖堂の中 写真では伝わりにくいけど壮大できれいな場所でした。
-おしゃれなスタバもあった ストラホフ修道院 その後はストラホフ修道院へ。移動にはトラム(路面電車)と地下鉄に乗りました。
-トラム 電車の切符 切符は日本と違って、駅から駅への区間の料金を払うのではなくて時間に対して払う。例えば15分切符を買うと15分の間はどこからどこに乗ってもok。買った切符は電車に乗った時に打刻する。
-写真の切符は24時間切符。値段は左下に書いている120kc(コルナ)。1コルナは約6円ぐらい。
-ストラホフ修道院図書館 修道院ビールとグラーシュ 修道院といえばビールですよね。ここも修道院で作っているビールが飲めます。他のお店もそうだけど、ビールは基本1パイントサイズ。日本と同じサイズを注文したいときはスモールサイズで注文しないと出てこない。
-グラーシュはチェコ料理の１つ。牛肉と野菜をじっくり煮込んだ料理。美味しかった。
-プラハの街 その後もプラハをプラプラしていました。
-ジョン・レノンの壁 旧市街地の天文時計 カレル・ゼマン博物館 ビーフタルタル ウルケルビール ビーフタルタルがめちゃくちゃ美味すぎた。肉屋もやっているお店だったのもあるけど新鮮で最高。
-ウルケルビールも飲めた！チェコでウルケルビールを飲むのが旅の目的の１つだったから達成できた。日本で飲むのとは違う味わいで、やっぱり食べ物やお酒は現地で味わうのが一番だな…と思った。
-その他気づいたこと トイレ トイレは有料。駅のトイレに行ったらおばちゃんが銭湯の番台みたいに座ってて徴収してくる。
-お店のトイレは普通に使えるか、レシートにトイレの暗証番号が書かれているからそれで入れる
-気温 寒すぎる｡北海道と同じ。
-持ってきた服がこの気温に耐えられなくてずっと寒かった…3日目にコートを買うまでは体調が悪くて100％で楽しむことが出来なかった…。前日チェコについたときも体調悪かったのは気温のせいだったかも。
-チェコ編で長くなっちゃったのでオーストリア編は次回。</description></item><item><title>チェコに行ってきた - 移動編</title><link>https://maeken2010.github.io/blog/20241111/</link><pubDate>Mon, 11 Nov 2024 17:14:50 +0900</pubDate><guid>https://maeken2010.github.io/blog/20241111/</guid><description>チェコに行ってきました。なんでかというとチェコでビールを飲みたかったからです。
-沖縄からチェコに行くルートは色々あるけど、どうやら沖縄→飛行機で台湾→飛行機でオーストリア→電車でチェコ、のルートが良さそうだった。オーストリアからチェコへの飛行機もあるけど時間的にはあまり変わらないのと電車に乗ってみたかった。
-日数は１週間。妻と一緒に夏休みを使っていってきました。
-１日目 台湾 那覇空港から台湾の台湾桃園国際空港に飛行機移動。オーストリア行きの飛行機は夜10時発なので、朝から台湾行って台湾も楽しむぞという算段。
-妻の友人が台湾にいるので案内してもらいながら3人で台北を周りました。101も登りました。
-お昼はディンタイフォン（鼎泰豐）で小籠包食べました。ヘチマ入り小籠包が美味かった。
-台湾以外の海外に行くのは始めただったが、台湾自体は来るのは３回目なのでこの辺はまだ舐めプしていた。電車の乗り方も知っているし、観光地なら日本語も少し通じるし。
-が、esimを初めてネットで買って使ったけど失敗した。データ使い放題という謳い文句に釣れられて買ったけど、どうやらネット速度は別らしくて常に遅くて使い物にならなかった。フリーwifiが多かったからなんとかなったけど次は気をつけたい。
-夜になり空港に戻ってオーストリア行きのEVA Airに乗る。
-機内 初めての長距離飛行機。まず台湾から３時間かけてバンコク、その後１２時間かけてオーストリア。 適当に映画見て寝とけば何とかなるっしょと思ってたけど考えが甘かった。
-飛行機で寝れなさすぎる。元々寝る場所にはうるさい方なので覚悟していたけどこれほどとは。 あと機内が乾燥しているから喉がやられそうだった。 1時間弱寝る、起きる、また１時間弱寝る、みたいなのを繰り返していた。完全徹夜ほどじゃないけどずっと眠いなっていう気分。
-機内食を初めて食べた。普通に美味かった。食器はプラスチックだけどナイフスプーンフォークは金属だった。EVA Airの機内食は美味しいという噂だけどその通りでした。
-結局事前にDLしておいた映画はほとんど見れなかった…。 ホールドーバーズは観た。原宿さんがおすすめしていたので気になってた。めちゃくちゃ面白かった。
-2日目 オーストリア オーストリアのウィーンに到着。 オーストリアの入国審査で「いつまでいるの？3日？3日しかいないの？（ため息」みたいなことを言われた。自分だってもっと休みたかった😭。
-空港のスーパー行ってみるとチーズとハムがめちゃくちゃあった。ヨーロッパだなあ。 ペットボトルの蓋は大抵くっついていて本体から外れないようになっていた。地味に便利。
-OBBというオーストリアの国鉄でチェコに向かう。チェコにも空港はあるが値段的にも時間的にも電車とほぼ変わらないので電車で向かうことにした。4時間ゆられる
-電車のチケットはネットで事前に注文。改札は無くて、社内で車掌さんがたまにチケット確認してくる。
-食堂車でご飯とビールを注文。ビールが美味すぎてたまげた。新鮮なのかなんなのか知らないけどめちゃくちゃ美味かった。いや、疲れていただけかも
-途中駅のブルノで人がたくさん乗ってきた。調べるとブルノはチェコの第二の都市らしい。今回は行けないけどいつか行ってみたい。
-プラハまでの道のり、基本は田舎。
-緯度的には北海道と同じ。気温も最高10度最低0度みたいな感じ。寒い。
-すでに時差ボケ気味。日本時間からマイナス８時間なので、このときは12時だけど日本は夜中4時。飛行機で寝れなかったのもあって眠すぎるがここで寝ると余計に治らないので頑張って起きる。
-移動編はここまで。チェコ・オーストリア編に続く。</description></item><item><title>キーボードを組み立てました</title><link>https://maeken2010.github.io/blog/20240817/</link><pubDate>Sat, 28 Sep 2024 16:54:37 +0900</pubDate><guid>https://maeken2010.github.io/blog/20240817/</guid><description>新しい分割キーボードを買いました
-理由 今使っているキーボードは２つあって、分割キーボードを家以外で使おうと思って持っていったけど結構でかいし重いなと思った。 なのでもっと小さくてオーソリニアで、ついでに家に余っている茶軸とキーキャップを消費するために組み立てができて、だけどはんだ付けはめんどいから不要なキーボードないかなーさすがにないかーと思ってた。
-ありました https://shop.yushakobo.jp/products/8961 Corne V4 Cherry
-欲しいものがすべて揃っているキーボード見つけました。早速購入
-組み立て簡単だしサイズもいいし申し分なし
-キーマップ remapで調整可能。今まで使っているキーボードのキーマップからあまり変えないようにしつつ模索中 https://remap-keys.app/
-しかし 新しいキーボード買うと軸とキーキャップを新しくしたくなるから結局軸とキーキャップは余り続けるという…</description></item><item><title>ブログのドメインを変えました</title><link>https://maeken2010.github.io/blog/20240615/</link><pubDate>Sat, 15 Jun 2024 23:50:18 +0900</pubDate><guid>https://maeken2010.github.io/blog/20240615/</guid><description>概要 ブログのurlが https://maeken2010.github.io/ から https://blog.maeken2010.dev/ になりました
-なぜ変えたのか いちエンジニアとして自分のドメインぐらい持っておくか、じゃあブログもついでに買ったドメインに対応しよう、というのが動機
-どうやったのか cloudflareでドメインを買いました。迷ったらとりあえず有名なところから買う主義。
-ドメインの選定 エンジニアっぽいドメインをこの記事を参考に探してみた。 この記事読んで知ったけど.ioとかって国別コードだったんですね、国別コードを個人のドメインとして使うのは本来の目的とは違うんじゃない？という謎の正義感が生まれたので.devにしました。
-ページの構成 https://maeken2010.dev →自分の紹介ページ https://blog.maeken2010.dev →このブログ 紹介ページ https://maeken2010.dev
-ドメイントップの紹介ページはhtmlファイルのみの無骨なページが良いという美学があるので超シンプル。
-レポジトリはこれ https://github.com/maeken2010/MyPages
-デプロイはcloudflareのPagesを使ってる。無料で便利。
-ブログ https://blog.maeken2010.dev
-ブログはこれまでと同じでgithub pagesでデプロイ
-レポジトリはこれ https://github.com/maeken2010/maeken2010.github.io
-DNS ブログはblogサブドメインになるようにレコードを追加。
-その後にgithub pagesでカスタムドメインの設定をする。
-プロキシをするとcloudflareでいい感じになって早くなるらしいがgithub pages側の設定がうまくいかなかったので外している
-今後 自分がエンジニアとしている間はこのドメインでポートフォリオ的なものになるといいな〜</description></item><item><title>環境の紹介2024</title><link>https://maeken2010.github.io/blog/20240525/</link><pubDate>Fri, 24 May 2024 18:00:00 +0900</pubDate><guid>https://maeken2010.github.io/blog/20240525/</guid><description>はじめに 開発環境が揃ってきたからまとめてみようと思う。
-環境 物理的な環境とソフトウェアの環境のそれぞれでまとめる
-物理 PC Mac派。仕事もプライベートもMacBook Pro。
-デスクで使うときはスタンドで高くして画面を見下さずに見れるようにしている。
-エレコム PCA-LTSFAH20SV https://www.elecom.co.jp/products/PCA-LTSFAH20SV.html
-椅子 体に触れるものであるほど金をかけるべし、という格言に則って一番金をかけている。
-エルゴヒューマン2(ergohuman2) https://amzn.asia/d/0fnZOY2
-机 机はこだわりは無くてニトリの机を使っている
-デスク(N ステイン 120 BR) https://www.nitori-net.jp/ec/product/6200337/
-ただ、最近は狭くなってきたからもっと広い机にしたいと思っている
-今だとこれが気になる。広いし高さの調整も可能でおしゃれ。
-twig https://borderless-shop.com/products/twig-%E5%A4%A9%E6%9D%BF-finland-birch
-キーボード1 メカニカルキーボードの存在を知ってからはFILCO Majestouch、そこからen配列、60％キーボード、と渡り、現在は分割キーボードを使ってる。
-Moonlander https://www.zsa.io/moonlander
-配列が直行しているキーボードをオーソリニアと言うらしい。直行している方が合理的にもタイプし易いのでは？と思い選んでみた。 最初はかなり打ちづらかったが慣れるとオーソリニア以外はもう考えられない体になってしまった。
-キーバインドはQMKで設定できるのでキーボード自体にキーバインドの設定が入る。なので仕事PCとプライベートPC関係なく同じキーバインドが使える。
-キーキャップもいろんな種類があって軸も色々あって…キーボード沼に片足を突っ込んでいます。
-キーボード2 持ち運び用にはMoonlanderと同じところのPlanck EZ(40%キーボード)を使っている。
-が、この前発売を終了してしまった…残念
-トラックボール マウスじゃなくてトラックボール派
-ワイヤレストラックボール https://www.elecom.co.jp/products/M-HT1DRBK.html
-最近丁度壊れてしまって今はマウス使っている。 なんかトラックボールって壊れやすい気がしている、丈夫なトラックボールないですか…？
-モニター でかいモニターは正義
-Dell S2721QS 27インチ 4K https://amzn.asia/d/gcs6q6C
-マイク マイク内蔵のイヤホンを使っていたけど音質が悪く、リモートワーク作業なのでなるべく聞く方がストレスにならないように単一指向性のスタンドマイクにした
-FIFINE USBコンデンサーマイクマイク https://amzn.asia/d/9rvJDbf
-スピーカー 作業用のBGMを流す用。イヤホンつけっぱなしは耳に悪いらしいので、通話以外はなるべくスピーカーを使ってる
-Anker Soundcore 3 https://amzn.asia/d/5W7QZrG
-本棚 本は物理派なので本棚を作業机の側に置いている。 無印のスタッキングシェルフ気に入ってる。組み立ても楽だし拡張も可能、なにより丈夫。
-スタッキングシェルフセット・３段×２列・オーク材 https://www.muji.com/jp/ja/store/cmdty/detail/4549337263970
-ソフトウェア ターミナル wezterm https://wezfurlong.</description></item><item><title>スクラムギャザリング2024に参加してきました</title><link>https://maeken2010.github.io/blog/20240114/</link><pubDate>Sun, 14 Jan 2024 11:41:30 +0900</pubDate><guid>https://maeken2010.github.io/blog/20240114/</guid><description>スクラムギャザリングに今年も参加してきました。 前回2023はオフラインチケットが取れなくてオンランで参加していて、楽しかったけどやっぱりオフラインでわいわいしたいな…と気づいたので10月からチケット争奪戦をして無事オフラインチケットが取れました
-廊下 講演はアーカイブ配信があるし、せっかく現地に居るなら誰かと話すのを優先したほうがいいのでは…？と気づいた。 いつもは講演を聞いてメモをとってるけど、今回はついに廊下メモができた。 だから講演よりも人と話す方を優先した時間もあった。
-大学の後輩に偶然出会えた。自分が四年生の時に一年生で、その時に自分がプログラミング授業の勉強会をしてた時にお世話になったとのこと。昔の自分偉すぎる。
-沖縄でTDDワイワイ会®️とコードリトリートをやりたいと思っていて、沖縄スクフェスでも話したけど今回はワイワイ会メンバーもいわむーさんも居たので折角だから集まって話した。廊下で見かけたら捕まえて話しましょ、と声をかけた。3日目のOSTの後のランチタイムで話せたのでよかった。
-メモと気づきを分けた 少し前からobsidianを使って発見カードをつけている。発見カードは知的生産の技術を読んでから実践しているやつ。
-すごいざっくり言うと心に浮かんだアイディアはノートじゃなくてカードにする。1アイディアに1カード。分類、並び替え、整理、持ち運びがやりやすいし見返しやすい。カード同士からカードを作ることもできる。これはzettelkastenと似ている。
-で、講演を聞きながら気づいたこともカードにすることにした。今までは1つのテキストファイルに書いていたけど時間が経つと見返すのがむずかしい。
-やってみると結構いい感じ。スクラムギャザリングとは関係をないような一般化されたアイディアを他のカードと同じように管理することで見返しの対象になるし良くなりそう。
-英語 英語、やっぱできる人はかっこいいなと気づいた。keynoteに英語の講演があって同時通訳もあるけどやっぱり直に聴きたいし、質問も英語でしたい。英語で質問しているひとカッコ良すぎる。
-狩野先生のすごさ 最終日の最後のkeynoteは狩野モデルでお馴染みの狩野先生の講演。狩野先生が最初の方で『狩野モデルの人は大豪邸に住んでいてとっくの昔に亡くなっているとよく言われる』と話していたけど、すいません、自分もそう思ってました…
-狩野モデルは直感的にも経験的にも腑に落ちるし実際にこれを使ってプロダクトバックログの優先順位付けに使ったこともある。最初に知ったのはアジャイルな見積もりと計画作りの本。そこでは狩野モデルの概要は書かれていたけど今回keynoteでは狩野モデルの背景が特に話されていてとても面白かった。アリストテレスが出てきたのが印象的だった。
-質問タイムも、まる事前に打ち合わせしていたかのようにドンピシャのスライドがあってすごかった。狩野先生も『答えられない質問があるということは、まだ生きている価値があるということ』と話していていやカッコよと思った。狩野先生のファンになりました。より深く知りたいと思ったし、講演も聞きたい。
-次も参加するぞ スクラムギャザリング、やっぱり最高。来年も絶対に参加するぞ。</description></item><item><title>後輩たちとTDDモブプロでわいわいしてきた</title><link>https://maeken2010.github.io/blog/20231202/</link><pubDate>Sat, 02 Dec 2023 21:42:09 +0900</pubDate><guid>https://maeken2010.github.io/blog/20231202/</guid><description>isseiさんと一緒に大学でTDDをモブプロでわいわいしてきました。楽しかった〜
-開催のきっかけは、TDDワイワイ会®が好きでまたやりたい自分と後輩集めて勉強会開きたいisseiさんで需要の一致があってそれで開催しました。
-isseiさんが後輩を集めてきてくれて、学部生、院生、OB、結構幅広く来てくれました。縦の繋がりが生まれるきっかけにもなってよかったかも。
-会場は大学のいつもの教室。教室貸出に我らがnkmr先生にご協力いただきましたありがとうございます。
-人数は全部で10人くらいで2島作った。流れは本家に合わせて、チェックイン→最初のモブ→休憩→2回目のモブ→ふりかえりでやりました。
-TDDやモブプロを学ぶ目的だけど初回だしまずはワイワイできることを意識しました。結果的にみんな楽しめたみたいで非常に嬉しかった。TDDもモブプロも普段はやらないから新鮮みたいでよかった。
-前半はfizz buzz、後半はおまかせ。毎回fizz buzzだけどやる度に違う書き方になるから面白い。実装とテストのコードがほぼ同じだけどこれはええんか、とか標準出力のテストってどうやるんだ、とかの議論もできた。
-kono先生も遊びに来てました。
-テスト駆動開発のゼミ見たいのやってる pic.twitter.com/liqYZ5KKWZ
-&amp;mdash; Shinji Kono (@shinji_kono) December 2, 2023 ちょっと話が逸れるけど、最近読んだtwadaさんのTDDの記事でtwadaさんが
-TODOリストの作成はTDDの中でも一番難しい部分
-と言っていてめっちゃわかるやっぱそうか、となった。 実際今回も、TODOリストの作成に最初は少し戸惑っていたっぽいからとりあえず洗い出して進めてみてまだ後でいくらでも直せるということを伝えた。
-運営的な反省点は、
-お菓子用意しとけばよかった。頭使うし砂糖必要。 最後のふりかえり、感想を一言話してもらうものにしたけどそれだけじゃなくてやっぱ何かしら形に残せるものでやればよかったかな〜付箋とペン用意してFUN DONE LEARNやって写真に残したかった、履歴にもなるし 打ち上げのときに、会社で真似して勉強会やってみようかなと言ってくれた人も居た。広がるわいわいの輪。 あと、次回あったらお手伝いします！って言ってくれる後輩も居て涙ちょちょぎれ。また開催するぞ。
-関係ないけど大学が久しぶりで懐かしすぎた。久しぶりに食堂も行った。めっちゃ食った。
-懐かしすぎ</description></item><item><title>ハッカーズチャンプルー2023に行ってきたよ</title><link>https://maeken2010.github.io/blog/20231007/</link><pubDate>Sun, 08 Oct 2023 15:31:38 +0900</pubDate><guid>https://maeken2010.github.io/blog/20231007/</guid><description>ハッカーズチャンプルー2023に行ってきました。同窓会みたいで楽しかったです。
-ハッカーズチャンプルーは自分が大学生の時（7年前ぐらい？）に大学でやっていた時以来の参加でした。コロナも収まってきたし自分も沖縄に戻ってきているしいい機会だと思って参加してみました。
-ちょっと前から沖縄の勉強会やカンファレンスに参加するようになって、そこで知り合った人や大学の後輩ができて今回のハッカーズチャンプルーもまた会いましたねって人が多かった。地方のカンファレンスはこういうのがあるから楽しい。
-それ以外にも久しぶりに会った人もたくさんいた。自分が院生の時に参加したハッカソンで同じチームで当時は学部1年生だった子が今院2年生として参加してた。ハッカソン以来だったから完全に親戚のおじさんの気分だった。大きくなったねえ〜
-あと、学生の頃は絡んでなかったり年代的に被ってない後輩もいて、なぜか自分のことを知っていた。ピーナッツくんを好きな先輩として広まっているらしい。なぞ。
-それと、isseiさんと一緒に大学で勉強会開く予定も建ちそう。後輩たちと一緒になにかできるのは楽しみ。
-他にもお久しぶりな方に挨拶できた。みなさんお久しぶりです。お元気ですか。
-会の進行は巻き気味だったけど、その分休憩時間が長くて久しぶりの人と話せる時間が多かったので良かったです。
-お昼は行きたかったカレー屋さんがたまたま近くにあったから行ってみたら当たりだった
-激うまだったカレー トークやLTも面白かったです。トークの合間合間にLTがあるからテンポが良かったです。
-デモがある発表が特に面白かった。分かりやすいし盛り上がるし。自分ももし発表する時はデモを必ずやろ。
-懇親会も楽しかったです。kono先生と奥さんも来ていて、カレーパーティーの話してたらその場で開催日決まってもう絶対行きます。タンドリーチキン食べまくります。
-二次会はよく行くビアバーに突撃
-まえけんさんと緑化さんと飲んでる pic.twitter.com/MVAbZLph2j
-&amp;mdash; 八雲アナグラ (@AnaTofuZ) October 7, 2023 ハッカーズチャンプルー、とても楽しかったし同窓会ができてよかったです。来年も参加したい〜</description></item><item><title>スクラムギャザリング2022行ってきた</title><link>https://maeken2010.github.io/blog/20220115/</link><pubDate>Sat, 15 Jan 2022 13:27:20 +0900</pubDate><guid>https://maeken2010.github.io/blog/20220115/</guid><description>はじめに スクラムギャザリング2022に行ってきた！！ので感想をまとめます。結論から言うと最高でした。
-https://2022.scrumgatheringtokyo.org/index.html
-なぜ参加したのか 以前からスクラムに興味があり、チームでもスクラムマスターとしてスクラムを実践しています。これまでもスクラムガイドや各種本を色々読んでいました。しかし、
-本からは知識が得られるが、経験者の知識は得られない 良いチームの共通点とは ふりかえりのコツとは スクラムマスターとしてのキャリア という悩みがあり、なにかヒントが得られればと思いイベントに参加してみました
-印象的だったセッション 星野リゾート 非IT組織としてDX、アジャイルをどうして推進できたのか。それはアジャイルな土台が組織文化としてすでにあった（現場主導、立候補プレゼン、マルチタスク、等）からというのが面白かったです。アジャイルはソフトウェア開発関係ないと改めて思いました。
-ふりかえり星人 VTuber的な構成でスパチャを投げたくなりました。セッション自体もmiroを使って双方向に進めているのが良かった。ふりかえりはTRYが出なくてもいいというのが結構衝撃でした。
-スクラム the ORIGIN 自分は頭でっかちの方で、何事も起源とか経緯とか気にする方なのでスクラムのルーツを知れたのが良かったです。今までXP→スクラムの順だと思ったんですが同時多発的、むしろ逆なんですかね？
-OST 自分はRSGT初参加で、これまでのセッションや懇親会で他にも初参加の人が結構居そうだったので「FIRST TIMERの感想を聞いてくれ&amp;amp;聞かせてくれ」というテーマで枠を取りました。１０人ぐらい？の方々が来てくれて、初参加同士で感想を共有したりTwitter交換したり出来ました。RSGT運営の方も来てくれていて、改善点について聞いてくれました。 初参加あるあるとして、お昼ごはんを一人で食べるのが寂しい、という話が出ていたので枠が終わったあとの昼休憩でそのままみんなでご飯食べる事もできました。
-感想 自社以外でスクラムの話をできるのがほぼ初めてなのでとても楽しかったです。全員聞き上手で話していて気持ちが良かったです。
-スクラムはフレームワークだし銀の弾丸ではないとは分かりつつ、どこかでスクラム自体に期待している所があったと思います。が、今回いろんなセッションに参加して思ったのは ローカルなアクションから場が作られて良いチームになる んだなと思いました。スクラムはその場を作るためのフレームワークでしかない。
-そしてローカルなアクションから信頼・尊敬できる場が生まれているのが、良いチームの共通点だと思いました。まず良いチームを作ってから、徐々にスケールしていく、影響を与えていく。
-懇親会やOSTで知り合いが増えたし、最終日帰る間際でも最後話せて、これがいわゆる廊下セッションかと思いました。次回はもっと廊下したい。
-ギャザリング出来て楽しかったイベントでした。次回もまた参加したい！</description></item><item><title>ぽこピーとの出会い</title><link>https://maeken2010.github.io/blog/20211215/</link><pubDate>Wed, 15 Dec 2021 10:57:09 +0900</pubDate><guid>https://maeken2010.github.io/blog/20211215/</guid><description>はじめに この記事はぽこピー(pokopea) 🍃 🥜 Advent Calendar 2021の12/18の記事です。
-始めまして、まえけんです。あまり里の民としては表に出ることはないですが、普段はぽこピーを中心にvtuberを追いかけて後方腕組みをしています。
-今回はぽこピーアドベントカレンダーということで、自分はサウナが好きだしピーナッツくんと里の民にぜひ行ってほしいサウナでも書こうかな…と思ったのですが、丁度これを書いている12/15、さはなさんのチャンネルでめちゃくちゃおもしろい動画が公開されてました。
-さはなさんといえばVTuber黎明期に活躍していた方で、自分も同じぐらいの時期からVTuberを見ていた者としてめちゃくちゃ懐かしい気持ちになりました。
-ということで、今回は自分がぽこピーに出会った当時とハマったきっかけについてつらつらと書いてみようと思います。
-バーチャルYoutuberオススメセット 2018年、当時はyoutubeとニコニコ動画それぞれ同じぐらい見ていて、youtuberもはじめしゃちょーぐらいしか見てませんでした。
-いつも通りニコニコ動画のランキングをチェックしていたときにたまたま見た動画が「バーチャルYoutuberオススメセット」でした
-この頃はまだVTuberの数はギリギリ全部追いかけられる程しかなく、ニコニコ動画にはVTuberのまとめ動画が日刊のように上がってました(今思うと最古の切り抜き動画ですね)
-そこで出会ったのがぽんぽこチャンネルでした。他のVTuberと違って実写動画を入れているのが新鮮だと思ったのを覚えています。まさか動画2本目で猿を探しに行くとは。
-ここらへんからぽんぽこを中心にVTuberに興味が出てきて、チャンネル登録したりニコニコ動画でまとめを見たりしてました。
-ピーナッツくんの声真似 そんなこんなでVTuberを見始めていて、VTuber界隈が盛り上がってきたな〜というところでニコニコ超会議2018で超バーチャルYouTu&amp;quot;BAR&amp;quot;というイベントがありました。
-内容はお客さんがVTuberと話したり相談したりするイベントで、自分も生放送でぼんやり見てました。
-そこで、月ノ美兎委員長が出ていた回でとあるお客さんがピーナッツくんのモノマネを披露していたのが自分のピーナッツくんとの(間接的な)出会いでした。
-これの13:00辺りから
-ピーナッツくん？？落花生？？と思ったし、~変な~ 不思議な声でモノマネしてたので「落花生のVTuber…何者…」と思ったのを覚えています。
-そこでピーナッツくんを調べて、アニメ見て、あー生放送もやってるんだ、え、ぽんぽことコラボしてるじゃん。え、あ、兄ぽこ！？？込み入ってる！！と流れるようにハマっていき、今に至ります
-ぽこピーはいいぞ てことでぽこピーを追うようになりました。この記事を書くにあたって初期の動画や生放送を見返してみたんですがとても懐かしいですね。
-ぽんぽこのお兄ちゃん呼び ピーナッツくんのぽんぽこちゃん呼び 設備の関係上、片方が話すともう片方の口も動く ピーナッツくんのイキり 🥜 「電脳少女シロさんとほぼ同期です」 🥜 「地固めがすごい」 ぽこピーの良さは個人的には「パーソナリティを感じられる」のがあるかなと思います。キャラクターから活動や行動がスタートしているというよりは、本人たちがやりたいことをやっているのを感じます。
-ぽこピーが何を感じて、何を考えていて、何をやっているのかを垣間見れる事が多いのが面白いです。これからもぽこピーの活躍を応援したいと思います。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Blogs on Maeken's blog</title><link>https://maeken2010.github.io/blog/</link><description>Recent content in Blogs on Maeken's blog</description><image><title>Maeken's blog</title><url>https://maeken2010.github.io/default/default-cover.png</url><link>https://maeken2010.github.io/default/default-cover.png</link></image><generator>Hugo -- 0.140.0</generator><language>ja</language><lastBuildDate>Sat, 15 Mar 2025 14:28:09 +0900</lastBuildDate><atom:link href="https://maeken2010.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>ミートソースの作り方</title><link>https://maeken2010.github.io/blog/20250315/</link><pubDate>Sat, 15 Mar 2025 14:28:09 +0900</pubDate><guid>https://maeken2010.github.io/blog/20250315/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
+&lt;p>いつも作っているミートソースの作り方を紹介します。
+このレシピは自分の親が作っていたレシピを元に、自分なりに改良していったものです。一人暮らしのときもよく大量に作って冷凍して作り置きしてました。&lt;/p>
+&lt;p>レシピの特徴としてはこんな感じ&lt;/p>
+&lt;ul>
+&lt;li>ケチャップは使わずに甘すぎない&lt;/li>
+&lt;li>セロリ多めでさっぱり&lt;/li>
+&lt;li>ひき肉だけじゃなくベーコンも使ってコクを追加&lt;/li>
+&lt;/ul>
+&lt;h1 id="レシピ">レシピ&lt;/h1>
+&lt;h2 id="材料">材料&lt;/h2>
+&lt;ul>
+&lt;li>たまねぎ 1つ&lt;/li>
+&lt;li>にんじん 1つ&lt;/li>
+&lt;li>セロリ 2本&lt;/li>
+&lt;li>ニンニク 2ケ&lt;/li>
+&lt;li>ベーコン 1パック
+&lt;ul>
+&lt;li>スライスでもブロックでも&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>牛ひき肉 330gぐらい
+&lt;ul>
+&lt;li>豚肉でも合いびき肉でも良い。個人的な好みは牛。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>トマト缶 2つ
+&lt;ul>
+&lt;li>カットトマト缶が無難。ホールトマト缶だと果肉感が残ってこれはこれで美味しい。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>コンソメキューブ 1つ&lt;/li>
+&lt;li>ローレル ４枚&lt;/li>
+&lt;li>ナツメグ&lt;/li>
+&lt;li>塩&lt;/li>
+&lt;li>コショウ&lt;/li>
+&lt;li>オリーブオイル&lt;/li>
+&lt;/ul>
+&lt;h2 id="作り方">作り方&lt;/h2>
+&lt;p>野菜をすべてみじん切りにする&lt;/p>
+&lt;p>&lt;img loading="lazy" src="https://maeken2010.github.io/images/250315/1.jpeg">&lt;/p>
+&lt;p>ベーコンとにんにくを切る
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/250315/2.jpeg">&lt;/p>
+&lt;p>ベーコンはみじん切りでもいいし、ブロックをサイコロ状に切ってもいい。お好みで。&lt;/p>
+&lt;p>ひき肉に塩を振っておく&lt;/p>
+&lt;p>&lt;img loading="lazy" src="https://maeken2010.github.io/images/250315/4.jpeg">&lt;/p>
+&lt;p>正確にやるなら、肉の重量の１％の塩を振る&lt;/p>
+&lt;p>鍋にオリーブオイル、刻んだニンニクを入れて火をつけて香りを出す。オリーブオイルは気持ち多めに。&lt;/p>
+&lt;p>&lt;img loading="lazy" src="https://maeken2010.github.io/images/250315/12.jpeg">&lt;/p>
+&lt;p>ベーコンを入れて炒める
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/250315/3.jpeg">&lt;/p>
+&lt;p>香りが立ったらみじん切りした野菜を入れる。
+この時に塩小さじ１入れると時間短縮になる。&lt;/p>
+&lt;p>&lt;img loading="lazy" src="https://maeken2010.github.io/images/250315/5.jpeg">&lt;/p>
+&lt;p>野菜が透明になってしんなりするまで炒める。&lt;/p>
+&lt;p>&lt;img loading="lazy" src="https://maeken2010.github.io/images/250315/13.jpeg">&lt;/p>
+&lt;p>鍋の火を止めて置いておく。
+別のフライパンに火をかけてひき肉を入れる。&lt;/p>
+&lt;p>&lt;img loading="lazy" src="https://maeken2010.github.io/images/250315/6.jpeg">&lt;/p>
+&lt;p>このときにひき肉は動かさない。でかいハンバーグを作るイメージでしっかり焼色をつける。
+油がたくさん出てくるので取るとさっぱり。取らなくてもコクになるので良い。&lt;/p>
+&lt;p>裏返して片面にも焼色をつける。&lt;/p>
+&lt;p>&lt;img loading="lazy" src="https://maeken2010.github.io/images/250315/7.jpeg">&lt;/p>
+&lt;p>火が通ったらひき肉を鍋に入れる。&lt;/p>
+&lt;p>フライパンにこびりついたものを水でとかして鍋に入れる(&lt;a href="https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%B0%E3%83%A9%E3%83%83%E3%82%BB">デグラッセ&lt;/a>と言うらしい)。
+水の代わりに赤ワインを使うと大人向けの味。いつもは水でやってます。&lt;/p>
+&lt;p>&lt;img loading="lazy" src="https://maeken2010.github.io/images/250315/8.jpeg">&lt;/p>
+&lt;p>火をつけてトマト缶を入れる。
+ローレルに切り込み入れて入れる。コンソメキューブ１つ入れる。&lt;/p>
+&lt;p>&lt;img loading="lazy" src="https://maeken2010.github.io/images/250315/9.jpeg">&lt;/p>
+&lt;p>もし時間を短縮したい場合、この後の水を入れて煮込む作業を飛ばしても十分美味い。&lt;/p>
+&lt;p>トマト缶１つぶんの水を入れて、蓋をずらして1時間弱煮込む&lt;/p>
+&lt;p>&lt;img loading="lazy" src="https://maeken2010.github.io/images/250315/10.jpeg">&lt;/p>
+&lt;p>コショウとナツメグ入れて味見、その後塩で調整。野菜炒める時やひき肉に塩を入れていた場合、追加で塩を入れなくても丁度良い場合があるので必ず味見してから塩を入れる。&lt;/p>
+&lt;p>夏の暑い時期は気持ち多めに塩を入れると美味しい。&lt;/p>
+&lt;p>もしすぐに食べないなら、粗熱を取って冷蔵庫で冷ますと味が馴染んでより美味しいです。&lt;/p></description></item><item><title>新しい日本語入力SKKに挑戦してみる</title><link>https://maeken2010.github.io/blog/20241228/</link><pubDate>Sat, 28 Dec 2024 13:36:32 +0900</pubDate><guid>https://maeken2010.github.io/blog/20241228/</guid><description>&lt;p>&lt;a href="https://zenn.dev/mtgto/articles/macskk-karabiner-settings-for-ghostty">https://zenn.dev/mtgto/articles/macskk-karabiner-settings-for-ghostty&lt;/a>&lt;/p>
+&lt;p>Ghostty の記事を読んでいたらSKKという入力方法の話しが出てきた。知らないものだったので調べてみたら興味が出てきたので導入してみた。&lt;/p>
+&lt;h1 id="これは良い">これは良い&lt;/h1>
+&lt;p>&lt;a href="https://dic.nicovideo.jp/a/skk">https://dic.nicovideo.jp/a/skk&lt;/a>&lt;/p>
+&lt;p>どんなものなのかは上記などのネットの記事を読むと分かると思う。形態素解析に頼らずにどれが漢字なのか、送り仮名はどれかを明示していく方法。
+かなり独特な変換方法で慣れるまでは時間がかかりそうだが、一度慣れたら最高という言葉には弱いので使ってみる。&lt;/p>
+&lt;h1 id="やったこと">やったこと&lt;/h1>
+&lt;p>macには&lt;a href="https://github.com/mtgto/macSKK">macSKK&lt;/a>、vimには&lt;a href="https://github.com/vim-skk/skkeleton">skkeleton&lt;/a>を使っている。
+今この記事も練習もかねてSKKで書いている。&lt;/p>
+&lt;p>skkeleton導入は以下の記事を参考にした&lt;/p>
+&lt;p>&lt;a href="https://kankodori-blog.com/posts/2024-06-30/">https://kankodori-blog.com/posts/2024-06-30/&lt;/a>&lt;/p>
+&lt;p>Lvimを使っているのでプラグインはこんな感じ&lt;/p>
+&lt;pre tabindex="0">&lt;code>lvim.plugins = {
+...
+{
+&amp;#34;vim-denops/denops.vim&amp;#34;,
+lazy = false,
+priority = 500,
+},
+{
+&amp;#34;vim-skk/skkeleton&amp;#34;
+},
+}
+&lt;/code>&lt;/pre>&lt;p>設定はこう。macSKKと使っている辞書を共通にしてみた。&lt;/p>
+&lt;pre tabindex="0">&lt;code>
+vim.api.nvim_set_keymap(&amp;#39;i&amp;#39;, &amp;#39;&amp;lt;C-j&amp;gt;&amp;#39;, &amp;#39;&amp;lt;Plug&amp;gt;(skkeleton-enable)&amp;#39;, {noremap = true})
+vim.api.nvim_set_keymap(&amp;#39;c&amp;#39;, &amp;#39;&amp;lt;C-j&amp;gt;&amp;#39;, &amp;#39;&amp;lt;Plug&amp;gt;(skkeleton-enable)&amp;#39;, {noremap = true})
+vim.fn[&amp;#39;skkeleton#config&amp;#39;]({
+globalDictionaries = {
+&amp;#34;~/Library/Containers/net.mtgto.inputmethod.macSKK/Data/Documents/Dictionaries/SKK-JISYO.L&amp;#34;,
+},
+userDictionary = &amp;#34;~/Library/Containers/net.mtgto.inputmethod.macSKK/Data/Documents/Dictionaries/skk-jisyo.utf8&amp;#34;,
+eggLikeNewline = true,
+keepState = true,
+showCandidatesCount = 2,
+registerConvertResult = true,
+})
+&lt;/code>&lt;/pre>&lt;p>ユーザー辞書はiCloudに置いたほうがいいかも？プライベートな内容だし。&lt;/p>
+&lt;h1 id="利点">利点&lt;/h1>
+&lt;p>しばらく使ってみて感じた利点をまとめる&lt;/p>
+&lt;h2 id="流れるように書ける">流れるように書ける&lt;/h2>
+&lt;p>1つずつ変換を確定していくので、変換中に修正することがないのが快適。ひらがなはいちいちエンターキーで確定する必要も無いのでタイプ数は若干減っているように感じる。&lt;/p>
+&lt;h2 id="ユーザー辞書を育てる">ユーザー辞書を育てる&lt;/h2>
+&lt;p>辞書に載ってないものはユーザー辞書にその場で登録できる。なので自分なりの辞書を育てていってより使いやすくできる。
+機能はシンプルだけどカスタマイズしがいがあるというのは好き。vim が好きなのも同じ理由。&lt;/p></description></item><item><title>チェコに行ってきた - チェコ編</title><link>https://maeken2010.github.io/blog/20241112/</link><pubDate>Thu, 14 Nov 2024 20:38:25 +0900</pubDate><guid>https://maeken2010.github.io/blog/20241112/</guid><description>&lt;p>前回の続き。&lt;/p>
+&lt;h1 id="3日目">3日目&lt;/h1>
+&lt;p>2日目の夕方にチェコに到着してホテルにチェックインできたが早々にダウン。
+予定では早速ビール飲みに行くぞ〜と思ってたけど出来ず…早めに寝た。&lt;/p>
+&lt;p>ちなみにホテルはめちゃくちゃキレイだった。貴族になった気分。
+&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/20241112/1.jpg"/>
+&lt;/figure>
+&lt;/p>
+&lt;p>テーブルに果物盛り合わせもあった。
+&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/20241112/2.jpg"/>
+&lt;/figure>
+&lt;/p>
+&lt;p>3日目は朝からプラハ観光。町並みが全部超きれいだった。&lt;/p>
+&lt;p>&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/20241112/6.jpg"/>
+&lt;/figure>
+&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/20241112/7.jpg"/>
+&lt;/figure>
+&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/20241112/8.jpg"/>
+&lt;/figure>
+&lt;/p>
+&lt;h2 id="プラハ城">プラハ城&lt;/h2>
+&lt;p>まず最初にプラハ城観光。城という名前がついているけど城は無くて、大聖堂や教会とかが集合しているデカい場所。&lt;/p>
+&lt;p>&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/20241112/p1.jpg"/> &lt;figcaption>
+聖ヴィード大聖堂
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/20241112/p2.jpg"/> &lt;figcaption>
+中は超広い
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/20241112/p5.jpg"/> &lt;figcaption>
+ステンドグラス超きれい
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/20241112/p3.jpg"/> &lt;figcaption>
+聖イジー聖堂
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/20241112/p6.jpg"/> &lt;figcaption>
+聖イジー聖堂の中
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>写真では伝わりにくいけど壮大できれいな場所でした。&lt;/p>
+&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/20241112/p7.jpg"/> &lt;figcaption>
+おしゃれなスタバもあった
+&lt;/figcaption>
+&lt;/figure>
+&lt;h2 id="ストラホフ修道院">ストラホフ修道院&lt;/h2>
+&lt;p>その後はストラホフ修道院へ。移動にはトラム(路面電車)と地下鉄に乗りました。&lt;/p>
+&lt;p>&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/20241112/9.jpg"/> &lt;figcaption>
+トラム
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/20241112/10.jpg"/> &lt;figcaption>
+電車の切符
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>切符は日本と違って、駅から駅への区間の料金を払うのではなくて時間に対して払う。例えば15分切符を買うと15分の間はどこからどこに乗ってもok。買った切符は電車に乗った時に打刻する。&lt;/p>
+&lt;p>写真の切符は24時間切符。値段は左下に書いている120kc(コルナ)。1コルナは約6円ぐらい。&lt;/p>
+&lt;p>&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/20241112/t1.jpg"/> &lt;figcaption>
+ストラホフ修道院図書館
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/20241112/t2.jpg"/> &lt;figcaption>
+修道院ビールとグラーシュ
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>修道院といえばビールですよね。ここも修道院で作っているビールが飲めます。他のお店もそうだけど、ビールは基本1パイントサイズ。日本と同じサイズを注文したいときはスモールサイズで注文しないと出てこない。&lt;/p>
+&lt;p>グラーシュはチェコ料理の１つ。牛肉と野菜をじっくり煮込んだ料理。美味しかった。&lt;/p>
+&lt;h2 id="プラハの街">プラハの街&lt;/h2>
+&lt;p>その後もプラハをプラプラしていました。&lt;/p>
+&lt;p>&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/20241112/o1.jpg"/> &lt;figcaption>
+ジョン・レノンの壁
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/20241112/o2.jpg"/> &lt;figcaption>
+旧市街地の天文時計
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/20241112/o4.jpg"/> &lt;figcaption>
+カレル・ゼマン博物館
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/20241112/o3.jpg"/> &lt;figcaption>
+ビーフタルタル
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/20241112/o5.jpg"/> &lt;figcaption>
+ウルケルビール
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>ビーフタルタルがめちゃくちゃ美味すぎた。肉屋もやっているお店だったのもあるけど新鮮で最高。&lt;/p>
+&lt;p>ウルケルビールも飲めた！チェコでウルケルビールを飲むのが旅の目的の１つだったから達成できた。日本で飲むのとは違う味わいで、やっぱり食べ物やお酒は現地で味わうのが一番だな…と思った。&lt;/p>
+&lt;h2 id="その他気づいたこと">その他気づいたこと&lt;/h2>
+&lt;h3 id="トイレ">トイレ&lt;/h3>
+&lt;p>トイレは有料。駅のトイレに行ったらおばちゃんが銭湯の番台みたいに座ってて徴収してくる。&lt;/p>
+&lt;p>お店のトイレは普通に使えるか、レシートにトイレの暗証番号が書かれているからそれで入れる&lt;/p>
+&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/20241112/oo1.jpg"/>
+&lt;/figure>
+&lt;h3 id="気温">気温&lt;/h3>
+&lt;p>寒すぎる｡北海道と同じ。&lt;/p>
+&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/20241112/oo2.jpg"/>
+&lt;/figure>
+&lt;p>持ってきた服がこの気温に耐えられなくてずっと寒かった…3日目にコートを買うまでは体調が悪くて100％で楽しむことが出来なかった…。前日チェコについたときも体調悪かったのは気温のせいだったかも。&lt;/p>
+&lt;p>チェコ編で長くなっちゃったのでオーストリア編は次回。&lt;/p></description></item><item><title>チェコに行ってきた - 移動編</title><link>https://maeken2010.github.io/blog/20241111/</link><pubDate>Mon, 11 Nov 2024 17:14:50 +0900</pubDate><guid>https://maeken2010.github.io/blog/20241111/</guid><description>&lt;p>チェコに行ってきました。なんでかというとチェコでビールを飲みたかったからです。&lt;/p>
+&lt;p>沖縄からチェコに行くルートは色々あるけど、どうやら沖縄→飛行機で台湾→飛行機でオーストリア→電車でチェコ、のルートが良さそうだった。オーストリアからチェコへの飛行機もあるけど時間的にはあまり変わらないのと電車に乗ってみたかった。&lt;/p>
+&lt;p>日数は１週間。妻と一緒に夏休みを使っていってきました。&lt;/p>
+&lt;h1 id="１日目">１日目&lt;/h1>
+&lt;h2 id="台湾">台湾&lt;/h2>
+&lt;p>那覇空港から台湾の台湾桃園国際空港に飛行機移動。オーストリア行きの飛行機は夜10時発なので、朝から台湾行って台湾も楽しむぞという算段。&lt;/p>
+&lt;p>妻の友人が台湾にいるので案内してもらいながら3人で台北を周りました。101も登りました。&lt;/p>
+&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/20241111/1.jpg"/>
+&lt;/figure>
+&lt;p>お昼はディンタイフォン（鼎泰豐）で小籠包食べました。ヘチマ入り小籠包が美味かった。&lt;/p>
+&lt;p>&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/20241111/2.jpg"/>
+&lt;/figure>
+&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/20241111/3.jpg"/>
+&lt;/figure>
+&lt;/p>
+&lt;p>台湾以外の海外に行くのは始めただったが、台湾自体は来るのは３回目なのでこの辺はまだ舐めプしていた。電車の乗り方も知っているし、観光地なら日本語も少し通じるし。&lt;/p>
+&lt;p>が、esimを初めてネットで買って使ったけど失敗した。データ使い放題という謳い文句に釣れられて買ったけど、どうやらネット速度は別らしくて常に遅くて使い物にならなかった。フリーwifiが多かったからなんとかなったけど次は気をつけたい。&lt;/p>
+&lt;p>夜になり空港に戻ってオーストリア行きのEVA Airに乗る。&lt;/p>
+&lt;h2 id="機内">機内&lt;/h2>
+&lt;p>初めての長距離飛行機。まず台湾から３時間かけてバンコク、その後１２時間かけてオーストリア。
+適当に映画見て寝とけば何とかなるっしょと思ってたけど考えが甘かった。&lt;/p>
+&lt;p>飛行機で寝れなさすぎる。元々寝る場所にはうるさい方なので覚悟していたけどこれほどとは。
+あと機内が乾燥しているから喉がやられそうだった。
+1時間弱寝る、起きる、また１時間弱寝る、みたいなのを繰り返していた。完全徹夜ほどじゃないけどずっと眠いなっていう気分。&lt;/p>
+&lt;p>機内食を初めて食べた。普通に美味かった。食器はプラスチックだけどナイフスプーンフォークは金属だった。EVA Airの機内食は美味しいという噂だけどその通りでした。&lt;/p>
+&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/20241111/4_2.jpg"/>
+&lt;/figure>
+&lt;p>結局事前にDLしておいた映画はほとんど見れなかった…。
+ホールドーバーズは観た。原宿さんがおすすめしていたので気になってた。めちゃくちゃ面白かった。&lt;/p>
+&lt;h1 id="2日目">2日目&lt;/h1>
+&lt;h2 id="オーストリア">オーストリア&lt;/h2>
+&lt;p>オーストリアのウィーンに到着。
+オーストリアの入国審査で「いつまでいるの？3日？3日しかいないの？（ため息」みたいなことを言われた。自分だってもっと休みたかった😭。&lt;/p>
+&lt;p>空港のスーパー行ってみるとチーズとハムがめちゃくちゃあった。ヨーロッパだなあ。
+ペットボトルの蓋は大抵くっついていて本体から外れないようになっていた。地味に便利。&lt;/p>
+&lt;p>OBBというオーストリアの国鉄でチェコに向かう。チェコにも空港はあるが値段的にも時間的にも電車とほぼ変わらないので電車で向かうことにした。4時間ゆられる&lt;/p>
+&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/20241111/7.jpg"/>
+&lt;/figure>
+&lt;p>電車のチケットはネットで事前に注文。改札は無くて、社内で車掌さんがたまにチケット確認してくる。&lt;/p>
+&lt;p>食堂車でご飯とビールを注文。ビールが美味すぎてたまげた。新鮮なのかなんなのか知らないけどめちゃくちゃ美味かった。いや、疲れていただけかも&lt;/p>
+&lt;p>&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/20241111/5.jpg"/>
+&lt;/figure>
+&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/20241111/6.jpg"/>
+&lt;/figure>
+&lt;/p>
+&lt;p>途中駅のブルノで人がたくさん乗ってきた。調べるとブルノはチェコの第二の都市らしい。今回は行けないけどいつか行ってみたい。&lt;/p>
+&lt;p>プラハまでの道のり、基本は田舎。&lt;/p>
+&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/20241111/9.jpg"/>
+&lt;/figure>
+&lt;p>緯度的には北海道と同じ。気温も最高10度最低0度みたいな感じ。寒い。&lt;/p>
+&lt;p>すでに時差ボケ気味。日本時間からマイナス８時間なので、このときは12時だけど日本は夜中4時。飛行機で寝れなかったのもあって眠すぎるがここで寝ると余計に治らないので頑張って起きる。&lt;/p>
+&lt;p>移動編はここまで。チェコ・オーストリア編に続く。&lt;/p></description></item><item><title>キーボードを組み立てました</title><link>https://maeken2010.github.io/blog/20240817/</link><pubDate>Sat, 28 Sep 2024 16:54:37 +0900</pubDate><guid>https://maeken2010.github.io/blog/20240817/</guid><description>&lt;p>新しい分割キーボードを買いました&lt;/p>
+&lt;h1 id="理由">理由&lt;/h1>
+&lt;p>今使っているキーボードは２つあって、分割キーボードを家以外で使おうと思って持っていったけど結構でかいし重いなと思った。
+なのでもっと小さくてオーソリニアで、ついでに家に余っている茶軸とキーキャップを消費するために組み立てができて、だけどはんだ付けはめんどいから不要なキーボードないかなーさすがにないかーと思ってた。&lt;/p>
+&lt;h1 id="ありました">ありました&lt;/h1>
+&lt;p>&lt;a href="https://shop.yushakobo.jp/products/8961">https://shop.yushakobo.jp/products/8961&lt;/a>
+Corne V4 Cherry&lt;/p>
+&lt;p>欲しいものがすべて揃っているキーボード見つけました。早速購入&lt;/p>
+&lt;p>組み立て簡単だしサイズもいいし申し分なし&lt;/p>
+&lt;h1 id="キーマップ">キーマップ&lt;/h1>
+&lt;p>remapで調整可能。今まで使っているキーボードのキーマップからあまり変えないようにしつつ模索中
+&lt;a href="https://remap-keys.app/">https://remap-keys.app/&lt;/a>&lt;/p>
+&lt;h1 id="しかし">しかし&lt;/h1>
+&lt;p>新しいキーボード買うと軸とキーキャップを新しくしたくなるから結局軸とキーキャップは余り続けるという…&lt;/p></description></item><item><title>ブログのドメインを変えました</title><link>https://maeken2010.github.io/blog/20240615/</link><pubDate>Sat, 15 Jun 2024 23:50:18 +0900</pubDate><guid>https://maeken2010.github.io/blog/20240615/</guid><description>&lt;h1 id="概要">概要&lt;/h1>
+&lt;p>ブログのurlが &lt;a href="https://maeken2010.github.io/">https://maeken2010.github.io/&lt;/a> から &lt;a href="https://blog.maeken2010.dev/">https://blog.maeken2010.dev/&lt;/a> になりました&lt;/p>
+&lt;h1 id="なぜ変えたのか">なぜ変えたのか&lt;/h1>
+&lt;p>いちエンジニアとして自分のドメインぐらい持っておくか、じゃあブログもついでに買ったドメインに対応しよう、というのが動機&lt;/p>
+&lt;h1 id="どうやったのか">どうやったのか&lt;/h1>
+&lt;p>cloudflareでドメインを買いました。迷ったらとりあえず有名なところから買う主義。&lt;/p>
+&lt;h2 id="ドメインの選定">ドメインの選定&lt;/h2>
+&lt;p>エンジニアっぽいドメインを&lt;a href="https://www.agent-grow.com/self20percent/2019/10/14/top-level-domain-for-engineer/">この記事を参考に&lt;/a>探してみた。
+この記事読んで知ったけど&lt;code>.io&lt;/code>とかって国別コードだったんですね、国別コードを個人のドメインとして使うのは本来の目的とは違うんじゃない？という謎の正義感が生まれたので&lt;code>.dev&lt;/code>にしました。&lt;/p>
+&lt;h2 id="ページの構成">ページの構成&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://maeken2010.dev">https://maeken2010.dev&lt;/a> →自分の紹介ページ&lt;/li>
+&lt;li>&lt;a href="https://blog.maeken2010.dev">https://blog.maeken2010.dev&lt;/a> →このブログ&lt;/li>
+&lt;/ul>
+&lt;h3 id="紹介ページ">紹介ページ&lt;/h3>
+&lt;p>&lt;a href="https://maeken2010.dev">https://maeken2010.dev&lt;/a>&lt;/p>
+&lt;p>ドメイントップの紹介ページはhtmlファイルのみの無骨なページが良いという美学があるので超シンプル。&lt;/p>
+&lt;p>レポジトリはこれ
+&lt;a href="https://github.com/maeken2010/MyPages">https://github.com/maeken2010/MyPages&lt;/a>&lt;/p>
+&lt;p>デプロイはcloudflareのPagesを使ってる。無料で便利。&lt;/p>
+&lt;h3 id="ブログ">ブログ&lt;/h3>
+&lt;p>&lt;a href="https://blog.maeken2010.dev">https://blog.maeken2010.dev&lt;/a>&lt;/p>
+&lt;p>ブログはこれまでと同じでgithub pagesでデプロイ&lt;/p>
+&lt;p>レポジトリはこれ
+&lt;a href="https://github.com/maeken2010/maeken2010.github.io">https://github.com/maeken2010/maeken2010.github.io&lt;/a>&lt;/p>
+&lt;h2 id="dns">DNS&lt;/h2>
+&lt;p>ブログは&lt;code>blog&lt;/code>サブドメインになるようにレコードを追加。&lt;/p>
+&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/20240615/1.png"/>
+&lt;/figure>
+&lt;p>その後に&lt;a href="https://docs.github.com/ja/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site">github pagesでカスタムドメインの設定&lt;/a>をする。&lt;/p>
+&lt;p>プロキシをするとcloudflareでいい感じになって早くなるらしいがgithub pages側の設定がうまくいかなかったので外している&lt;/p>
+&lt;h1 id="今後">今後&lt;/h1>
+&lt;p>自分がエンジニアとしている間はこのドメインでポートフォリオ的なものになるといいな〜&lt;/p></description></item><item><title>環境の紹介2024</title><link>https://maeken2010.github.io/blog/20240525/</link><pubDate>Fri, 24 May 2024 18:00:00 +0900</pubDate><guid>https://maeken2010.github.io/blog/20240525/</guid><description>&lt;h1 id="はじめに">はじめに&lt;/h1>
+&lt;p>開発環境が揃ってきたからまとめてみようと思う。&lt;/p>
+&lt;h1 id="環境">環境&lt;/h1>
+&lt;p>物理的な環境とソフトウェアの環境のそれぞれでまとめる&lt;/p>
+&lt;h2 id="物理">物理&lt;/h2>
+&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/IMG_0121.jpg"/>
+&lt;/figure>
+&lt;h3 id="pc">PC&lt;/h3>
+&lt;p>Mac派。仕事もプライベートもMacBook Pro。&lt;/p>
+&lt;p>デスクで使うときはスタンドで高くして画面を見下さずに見れるようにしている。&lt;/p>
+&lt;p>エレコム PCA-LTSFAH20SV
+&lt;a href="https://www.elecom.co.jp/products/PCA-LTSFAH20SV.html">https://www.elecom.co.jp/products/PCA-LTSFAH20SV.html&lt;/a>&lt;/p>
+&lt;h3 id="椅子">椅子&lt;/h3>
+&lt;p>体に触れるものであるほど金をかけるべし、という格言に則って一番金をかけている。&lt;/p>
+&lt;p>エルゴヒューマン2(ergohuman2)
+&lt;a href="https://amzn.asia/d/0fnZOY2">https://amzn.asia/d/0fnZOY2&lt;/a>&lt;/p>
+&lt;h3 id="机">机&lt;/h3>
+&lt;p>机はこだわりは無くてニトリの机を使っている&lt;/p>
+&lt;p>デスク(N ステイン 120 BR)
+&lt;a href="https://www.nitori-net.jp/ec/product/6200337/">https://www.nitori-net.jp/ec/product/6200337/&lt;/a>&lt;/p>
+&lt;p>ただ、最近は狭くなってきたからもっと広い机にしたいと思っている&lt;/p>
+&lt;p>今だとこれが気になる。広いし高さの調整も可能でおしゃれ。&lt;/p>
+&lt;p>twig
+&lt;a href="https://borderless-shop.com/products/twig-%E5%A4%A9%E6%9D%BF-finland-birch">https://borderless-shop.com/products/twig-%E5%A4%A9%E6%9D%BF-finland-birch&lt;/a>&lt;/p>
+&lt;h3 id="キーボード1">キーボード1&lt;/h3>
+&lt;p>メカニカルキーボードの存在を知ってからは&lt;a href="https://diatec.co.jp/products/det.php?prod_c=7821">FILCO Majestouch&lt;/a>、そこからen配列、&lt;a href="https://www.diatec.co.jp/shop/MINILA-R/">60％キーボード&lt;/a>、と渡り、現在は分割キーボードを使ってる。&lt;/p>
+&lt;p>Moonlander
+&lt;a href="https://www.zsa.io/moonlander">https://www.zsa.io/moonlander&lt;/a>&lt;/p>
+&lt;p>配列が直行しているキーボードをオーソリニアと言うらしい。直行している方が合理的にもタイプし易いのでは？と思い選んでみた。
+最初はかなり打ちづらかったが慣れるとオーソリニア以外はもう考えられない体になってしまった。&lt;/p>
+&lt;p>キーバインドはQMKで設定できるのでキーボード自体にキーバインドの設定が入る。なので仕事PCとプライベートPC関係なく同じキーバインドが使える。&lt;/p>
+&lt;p>キーキャップもいろんな種類があって軸も色々あって…キーボード沼に片足を突っ込んでいます。&lt;/p>
+&lt;h3 id="キーボード2">キーボード2&lt;/h3>
+&lt;p>持ち運び用にはMoonlanderと同じところのPlanck EZ(40%キーボード)を使っている。&lt;/p>
+&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/IMG_0114.jpg"/>
+&lt;/figure>
+&lt;p>が、この前&lt;a href="https://blog.zsa.io/2307-goodbye-planck-ez/">発売を終了してしまった&lt;/a>…残念&lt;/p>
+&lt;h3 id="トラックボール">トラックボール&lt;/h3>
+&lt;p>マウスじゃなくてトラックボール派&lt;/p>
+&lt;p>ワイヤレストラックボール
+&lt;a href="https://www.elecom.co.jp/products/M-HT1DRBK.html">https://www.elecom.co.jp/products/M-HT1DRBK.html&lt;/a>&lt;/p>
+&lt;p>最近丁度壊れてしまって今はマウス使っている。
+なんかトラックボールって壊れやすい気がしている、丈夫なトラックボールないですか…？&lt;/p>
+&lt;h3 id="モニター">モニター&lt;/h3>
+&lt;p>でかいモニターは正義&lt;/p>
+&lt;p>Dell S2721QS 27インチ 4K
+&lt;a href="https://amzn.asia/d/gcs6q6C">https://amzn.asia/d/gcs6q6C&lt;/a>&lt;/p>
+&lt;h3 id="マイク">マイク&lt;/h3>
+&lt;p>マイク内蔵のイヤホンを使っていたけど音質が悪く、リモートワーク作業なのでなるべく聞く方がストレスにならないように単一指向性のスタンドマイクにした&lt;/p>
+&lt;p>FIFINE USBコンデンサーマイクマイク
+&lt;a href="https://amzn.asia/d/9rvJDbf">https://amzn.asia/d/9rvJDbf&lt;/a>&lt;/p>
+&lt;h3 id="スピーカー">スピーカー&lt;/h3>
+&lt;p>作業用のBGMを流す用。イヤホンつけっぱなしは耳に悪いらしいので、通話以外はなるべくスピーカーを使ってる&lt;/p>
+&lt;p>Anker Soundcore 3
+&lt;a href="https://amzn.asia/d/5W7QZrG">https://amzn.asia/d/5W7QZrG&lt;/a>&lt;/p>
+&lt;h3 id="本棚">本棚&lt;/h3>
+&lt;p>本は物理派なので本棚を作業机の側に置いている。
+無印のスタッキングシェルフ気に入ってる。組み立ても楽だし拡張も可能、なにより丈夫。&lt;/p>
+&lt;p>スタッキングシェルフセット・３段×２列・オーク材
+&lt;a href="https://www.muji.com/jp/ja/store/cmdty/detail/4549337263970">https://www.muji.com/jp/ja/store/cmdty/detail/4549337263970&lt;/a>&lt;/p>
+&lt;h2 id="ソフトウェア">ソフトウェア&lt;/h2>
+&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/shreenshot240602.png"/>
+&lt;/figure>
+&lt;h3 id="ターミナル">ターミナル&lt;/h3>
+&lt;p>wezterm
+&lt;a href="https://wezfurlong.org/wezterm/index.html">https://wezfurlong.org/wezterm/index.html&lt;/a>&lt;/p>
+&lt;p>ターミナルアプリ。設定をluaで書けることが気に入っている&lt;/p>
+&lt;p>&lt;a href="https://wezfurlong.org/wezterm/quickselect.html">quick select mode&lt;/a>も便利&lt;/p>
+&lt;h3 id="シェル">シェル&lt;/h3>
+&lt;p>zsh。historyとか基本的な設定だけして、プロンプトなどは&lt;a href="https://starship.rs/ja-JP/">starship&lt;/a>でカスタマイズをしてる。&lt;/p>
+&lt;h3 id="エディタ1">エディタ1&lt;/h3>
+&lt;p>lunarvim
+&lt;a href="https://www.lunarvim.org/">https://www.lunarvim.org/&lt;/a>&lt;/p></description></item><item><title>スクラムギャザリング2024に参加してきました</title><link>https://maeken2010.github.io/blog/20240114/</link><pubDate>Sun, 14 Jan 2024 11:41:30 +0900</pubDate><guid>https://maeken2010.github.io/blog/20240114/</guid><description>&lt;p>スクラムギャザリングに今年も参加してきました。
+前回2023はオフラインチケットが取れなくてオンランで参加していて、楽しかったけどやっぱりオフラインでわいわいしたいな…と気づいたので10月からチケット争奪戦をして無事オフラインチケットが取れました&lt;/p>
+&lt;h2 id="廊下">廊下&lt;/h2>
+&lt;p>講演はアーカイブ配信があるし、せっかく現地に居るなら誰かと話すのを優先したほうがいいのでは…？と気づいた。
+いつもは講演を聞いてメモをとってるけど、今回はついに廊下メモができた。
+&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/screenshot1.png"/>
+&lt;/figure>
+だから講演よりも人と話す方を優先した時間もあった。&lt;/p>
+&lt;p>大学の後輩に偶然出会えた。自分が四年生の時に一年生で、その時に自分がプログラミング授業の勉強会をしてた時にお世話になったとのこと。昔の自分偉すぎる。&lt;/p>
+&lt;p>沖縄でTDDワイワイ会®️とコードリトリートをやりたいと思っていて、沖縄スクフェスでも話したけど今回はワイワイ会メンバーもいわむーさんも居たので折角だから集まって話した。廊下で見かけたら捕まえて話しましょ、と声をかけた。3日目のOSTの後のランチタイムで話せたのでよかった。&lt;/p>
+&lt;h2 id="メモと気づきを分けた">メモと気づきを分けた&lt;/h2>
+&lt;p>少し前からobsidianを使って発見カードをつけている。発見カードは知的生産の技術を読んでから実践しているやつ。&lt;/p>
+&lt;p>すごいざっくり言うと心に浮かんだアイディアはノートじゃなくてカードにする。1アイディアに1カード。分類、並び替え、整理、持ち運びがやりやすいし見返しやすい。カード同士からカードを作ることもできる。これはzettelkastenと似ている。&lt;/p>
+&lt;p>で、講演を聞きながら気づいたこともカードにすることにした。今までは1つのテキストファイルに書いていたけど時間が経つと見返すのがむずかしい。&lt;/p>
+&lt;p>やってみると結構いい感じ。スクラムギャザリングとは関係をないような一般化されたアイディアを他のカードと同じように管理することで見返しの対象になるし良くなりそう。&lt;/p>
+&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/screenshot2.png"/>
+&lt;/figure>
+&lt;h2 id="英語">英語&lt;/h2>
+&lt;p>英語、やっぱできる人はかっこいいなと気づいた。keynoteに英語の講演があって同時通訳もあるけどやっぱり直に聴きたいし、質問も英語でしたい。英語で質問しているひとカッコ良すぎる。&lt;/p>
+&lt;h2 id="狩野先生のすごさ">狩野先生のすごさ&lt;/h2>
+&lt;p>最終日の最後のkeynoteは狩野モデルでお馴染みの狩野先生の講演。狩野先生が最初の方で『狩野モデルの人は大豪邸に住んでいてとっくの昔に亡くなっているとよく言われる』と話していたけど、すいません、自分もそう思ってました…&lt;/p>
+&lt;p>狩野モデルは直感的にも経験的にも腑に落ちるし実際にこれを使ってプロダクトバックログの優先順位付けに使ったこともある。最初に知ったのはアジャイルな見積もりと計画作りの本。そこでは狩野モデルの概要は書かれていたけど今回keynoteでは狩野モデルの背景が特に話されていてとても面白かった。アリストテレスが出てきたのが印象的だった。&lt;/p>
+&lt;p>質問タイムも、まる事前に打ち合わせしていたかのようにドンピシャのスライドがあってすごかった。狩野先生も『答えられない質問があるということは、まだ生きている価値があるということ』と話していていやカッコよと思った。狩野先生のファンになりました。より深く知りたいと思ったし、講演も聞きたい。&lt;/p>
+&lt;h2 id="次も参加するぞ">次も参加するぞ&lt;/h2>
+&lt;p>スクラムギャザリング、やっぱり最高。来年も絶対に参加するぞ。&lt;/p></description></item><item><title>後輩たちとTDDモブプロでわいわいしてきた</title><link>https://maeken2010.github.io/blog/20231202/</link><pubDate>Sat, 02 Dec 2023 21:42:09 +0900</pubDate><guid>https://maeken2010.github.io/blog/20231202/</guid><description>&lt;p>isseiさんと一緒に大学でTDDをモブプロでわいわいしてきました。楽しかった〜&lt;/p>
+&lt;p>開催のきっかけは、&lt;a href="https://tddyyx.github.io/">TDDワイワイ会®&lt;/a>が好きでまたやりたい自分と後輩集めて勉強会開きたいisseiさんで需要の一致があってそれで開催しました。&lt;/p>
+&lt;p>isseiさんが後輩を集めてきてくれて、学部生、院生、OB、結構幅広く来てくれました。縦の繋がりが生まれるきっかけにもなってよかったかも。&lt;/p>
+&lt;p>会場は大学のいつもの教室。教室貸出に我らがnkmr先生にご協力いただきましたありがとうございます。&lt;/p>
+&lt;p>人数は全部で10人くらいで2島作った。流れは本家に合わせて、チェックイン→最初のモブ→休憩→2回目のモブ→ふりかえりでやりました。&lt;/p>
+&lt;p>TDDやモブプロを学ぶ目的だけど初回だしまずはワイワイできることを意識しました。結果的にみんな楽しめたみたいで非常に嬉しかった。TDDもモブプロも普段はやらないから新鮮みたいでよかった。&lt;/p>
+&lt;p>前半はfizz buzz、後半はおまかせ。毎回fizz buzzだけどやる度に違う書き方になるから面白い。実装とテストのコードがほぼ同じだけどこれはええんか、とか標準出力のテストってどうやるんだ、とかの議論もできた。&lt;/p>
+&lt;p>kono先生も遊びに来てました。&lt;/p>
+&lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">テスト駆動開発のゼミ見たいのやってる &lt;a href="https://t.co/liqYZ5KKWZ">pic.twitter.com/liqYZ5KKWZ&lt;/a>&lt;/p>&amp;mdash; Shinji Kono (@shinji_kono) &lt;a href="https://twitter.com/shinji_kono/status/1730840917517779180?ref_src=twsrc%5Etfw">December 2, 2023&lt;/a>&lt;/blockquote>
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+&lt;p>ちょっと話が逸れるけど、最近読んだ&lt;a href="https://agilejourney.uzabase.com/entry/2023/11/30/103000">twadaさんのTDDの記事&lt;/a>でtwadaさんが&lt;/p>
+&lt;blockquote>
+&lt;p>TODOリストの作成はTDDの中でも一番難しい部分&lt;/p>
+&lt;/blockquote>
+&lt;p>と言っていてめっちゃわかるやっぱそうか、となった。
+実際今回も、TODOリストの作成に最初は少し戸惑っていたっぽいからとりあえず洗い出して進めてみてまだ後でいくらでも直せるということを伝えた。&lt;/p>
+&lt;p>運営的な反省点は、&lt;/p>
+&lt;ul>
+&lt;li>お菓子用意しとけばよかった。頭使うし砂糖必要。&lt;/li>
+&lt;li>最後のふりかえり、感想を一言話してもらうものにしたけどそれだけじゃなくてやっぱ何かしら形に残せるものでやればよかったかな〜付箋とペン用意してFUN DONE LEARNやって写真に残したかった、履歴にもなるし&lt;/li>
+&lt;/ul>
+&lt;p>打ち上げのときに、会社で真似して勉強会やってみようかなと言ってくれた人も居た。広がるわいわいの輪。
+あと、次回あったらお手伝いします！って言ってくれる後輩も居て涙ちょちょぎれ。また開催するぞ。&lt;/p>
+&lt;p>関係ないけど大学が久しぶりで懐かしすぎた。久しぶりに食堂も行った。めっちゃ食った。&lt;/p>
+&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/IMG_2836.jpg"/> &lt;figcaption>
+懐かしすぎ
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>ハッカーズチャンプルー2023に行ってきたよ</title><link>https://maeken2010.github.io/blog/20231007/</link><pubDate>Sun, 08 Oct 2023 15:31:38 +0900</pubDate><guid>https://maeken2010.github.io/blog/20231007/</guid><description>&lt;p>ハッカーズチャンプルー2023に行ってきました。同窓会みたいで楽しかったです。&lt;/p>
+&lt;p>ハッカーズチャンプルーは自分が大学生の時（7年前ぐらい？）に大学でやっていた時以来の参加でした。コロナも収まってきたし自分も沖縄に戻ってきているしいい機会だと思って参加してみました。&lt;/p>
+&lt;p>ちょっと前から沖縄の勉強会やカンファレンスに参加するようになって、そこで知り合った人や大学の後輩ができて今回のハッカーズチャンプルーもまた会いましたねって人が多かった。地方のカンファレンスはこういうのがあるから楽しい。&lt;/p>
+&lt;p>それ以外にも久しぶりに会った人もたくさんいた。自分が院生の時に参加したハッカソンで同じチームで当時は学部1年生だった子が今院2年生として参加してた。ハッカソン以来だったから完全に親戚のおじさんの気分だった。大きくなったねえ〜&lt;/p>
+&lt;p>あと、学生の頃は絡んでなかったり年代的に被ってない後輩もいて、なぜか自分のことを知っていた。ピーナッツくんを好きな先輩として広まっているらしい。なぞ。&lt;/p>
+&lt;p>それと、isseiさんと一緒に大学で勉強会開く予定も建ちそう。後輩たちと一緒になにかできるのは楽しみ。&lt;/p>
+&lt;p>他にもお久しぶりな方に挨拶できた。みなさんお久しぶりです。お元気ですか。&lt;/p>
+&lt;p>会の進行は巻き気味だったけど、その分休憩時間が長くて久しぶりの人と話せる時間が多かったので良かったです。&lt;/p>
+&lt;p>お昼は行きたかったカレー屋さんがたまたま近くにあったから行ってみたら当たりだった&lt;/p>
+&lt;figure class="center">
+&lt;img loading="lazy" src="https://maeken2010.github.io/images/IMG_2481.jpg"/> &lt;figcaption>
+激うまだったカレー
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>トークやLTも面白かったです。トークの合間合間にLTがあるからテンポが良かったです。&lt;/p>
+&lt;p>デモがある発表が特に面白かった。分かりやすいし盛り上がるし。自分ももし発表する時はデモを必ずやろ。&lt;/p>
+&lt;p>懇親会も楽しかったです。kono先生と奥さんも来ていて、カレーパーティーの話してたらその場で開催日決まってもう絶対行きます。タンドリーチキン食べまくります。&lt;/p>
+&lt;p>二次会はよく行くビアバーに突撃&lt;/p>
+&lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">まえけんさんと緑化さんと飲んでる &lt;a href="https://t.co/MVAbZLph2j">pic.twitter.com/MVAbZLph2j&lt;/a>&lt;/p>&amp;mdash; 八雲アナグラ (@AnaTofuZ) &lt;a href="https://twitter.com/AnaTofuZ/status/1710624231644598698?ref_src=twsrc%5Etfw">October 7, 2023&lt;/a>&lt;/blockquote>
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+&lt;p>ハッカーズチャンプルー、とても楽しかったし同窓会ができてよかったです。来年も参加したい〜&lt;/p></description></item><item><title>スクラムギャザリング2022行ってきた</title><link>https://maeken2010.github.io/blog/20220115/</link><pubDate>Sat, 15 Jan 2022 13:27:20 +0900</pubDate><guid>https://maeken2010.github.io/blog/20220115/</guid><description>&lt;h2 id="はじめに">はじめに&lt;/h2>
+&lt;p>スクラムギャザリング2022に行ってきた！！ので感想をまとめます。結論から言うと最高でした。&lt;/p>
+&lt;p>&lt;a href="https://2022.scrumgatheringtokyo.org/index.html">https://2022.scrumgatheringtokyo.org/index.html&lt;/a>&lt;/p>
+&lt;h2 id="なぜ参加したのか">なぜ参加したのか&lt;/h2>
+&lt;p>以前からスクラムに興味があり、チームでもスクラムマスターとしてスクラムを実践しています。これまでもスクラムガイドや各種本を色々読んでいました。しかし、&lt;/p>
+&lt;ul>
+&lt;li>本からは知識が得られるが、経験者の知識は得られない
+&lt;ul>
+&lt;li>良いチームの共通点とは&lt;/li>
+&lt;li>ふりかえりのコツとは&lt;/li>
+&lt;li>スクラムマスターとしてのキャリア&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>という悩みがあり、なにかヒントが得られればと思いイベントに参加してみました&lt;/p>
+&lt;h2 id="印象的だったセッション">印象的だったセッション&lt;/h2>
+&lt;h2 id="星野リゾートhttpsconfenginecomconferencesregional-scrum-gathering-tokyo-2022schedulerichsession-29584-info">&lt;a href="https://confengine.com/conferences/regional-scrum-gathering-tokyo-2022/schedule/rich#session-29584-info">星野リゾート&lt;/a>&lt;/h2>
+&lt;p>非IT組織としてDX、アジャイルをどうして推進できたのか。それはアジャイルな土台が組織文化としてすでにあった（現場主導、立候補プレゼン、マルチタスク、等）からというのが面白かったです。アジャイルはソフトウェア開発関係ないと改めて思いました。&lt;/p>
+&lt;h2 id="ふりかえり星人httpsconfenginecomconferencesregional-scrum-gathering-tokyo-2022schedulerichsession-29585-info">&lt;a href="https://confengine.com/conferences/regional-scrum-gathering-tokyo-2022/schedule/rich#session-29585-info">ふりかえり星人&lt;/a>&lt;/h2>
+&lt;p>VTuber的な構成でスパチャを投げたくなりました。セッション自体もmiroを使って双方向に進めているのが良かった。ふりかえりはTRYが出なくてもいいというのが結構衝撃でした。&lt;/p>
+&lt;h2 id="スクラム-the-originhttpsconfenginecomconferencesregional-scrum-gathering-tokyo-2022schedulerichsession-29583-info">&lt;a href="https://confengine.com/conferences/regional-scrum-gathering-tokyo-2022/schedule/rich#session-29583-info">スクラム the ORIGIN&lt;/a>&lt;/h2>
+&lt;p>自分は頭でっかちの方で、何事も起源とか経緯とか気にする方なのでスクラムのルーツを知れたのが良かったです。今までXP→スクラムの順だと思ったんですが同時多発的、むしろ逆なんですかね？&lt;/p>
+&lt;h2 id="ost">OST&lt;/h2>
+&lt;p>自分はRSGT初参加で、これまでのセッションや懇親会で他にも初参加の人が結構居そうだったので「FIRST TIMERの感想を聞いてくれ&amp;amp;聞かせてくれ」というテーマで枠を取りました。１０人ぐらい？の方々が来てくれて、初参加同士で感想を共有したりTwitter交換したり出来ました。RSGT運営の方も来てくれていて、改善点について聞いてくれました。 初参加あるあるとして、お昼ごはんを一人で食べるのが寂しい、という話が出ていたので枠が終わったあとの昼休憩でそのままみんなでご飯食べる事もできました。&lt;/p>
+&lt;h2 id="感想">感想&lt;/h2>
+&lt;p>自社以外でスクラムの話をできるのがほぼ初めてなのでとても楽しかったです。全員聞き上手で話していて気持ちが良かったです。&lt;/p>
+&lt;p>スクラムはフレームワークだし銀の弾丸ではないとは分かりつつ、どこかでスクラム自体に期待している所があったと思います。が、今回いろんなセッションに参加して思ったのは &lt;strong>ローカルなアクションから場が作られて良いチームになる&lt;/strong> んだなと思いました。スクラムはその場を作るためのフレームワークでしかない。&lt;/p>
+&lt;p>そしてローカルなアクションから信頼・尊敬できる場が生まれているのが、良いチームの共通点だと思いました。まず良いチームを作ってから、徐々にスケールしていく、影響を与えていく。&lt;/p>
+&lt;p>懇親会やOSTで知り合いが増えたし、最終日帰る間際でも最後話せて、これがいわゆる廊下セッションかと思いました。次回はもっと廊下したい。&lt;/p>
+&lt;p>ギャザリング出来て楽しかったイベントでした。次回もまた参加したい！&lt;/p></description></item><item><title>ぽこピーとの出会い</title><link>https://maeken2010.github.io/blog/20211215/</link><pubDate>Wed, 15 Dec 2021 10:57:09 +0900</pubDate><guid>https://maeken2010.github.io/blog/20211215/</guid><description>&lt;h2 id="はじめに">はじめに&lt;/h2>
+&lt;p>この記事は&lt;a href="https://adventar.org/calendars/6954">ぽこピー(pokopea) 🍃 🥜 Advent Calendar 2021&lt;/a>の12/18の記事です。&lt;/p>
+&lt;p>始めまして、まえけんです。あまり里の民としては表に出ることはないですが、普段はぽこピーを中心にvtuberを追いかけて後方腕組みをしています。&lt;/p>
+&lt;p>今回はぽこピーアドベントカレンダーということで、自分はサウナが好きだしピーナッツくんと里の民にぜひ行ってほしいサウナでも書こうかな…と思ったのですが、丁度これを書いている12/15、&lt;a href="https://www.youtube.com/c/%E3%81%95%E3%81%AF%E3%81%AA">さはな&lt;/a>さんのチャンネルでめちゃくちゃおもしろい動画が公開されてました。&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/UF3PCbhOKZ4?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
+&lt;/div>
+&lt;p>さはなさんといえばVTuber黎明期に活躍していた方で、自分も同じぐらいの時期からVTuberを見ていた者としてめちゃくちゃ懐かしい気持ちになりました。&lt;/p>
+&lt;p>ということで、今回は自分がぽこピーに出会った当時とハマったきっかけについてつらつらと書いてみようと思います。&lt;/p>
+&lt;h2 id="バーチャルyoutuberオススメセット">バーチャルYoutuberオススメセット&lt;/h2>
+&lt;p>2018年、当時はyoutubeとニコニコ動画それぞれ同じぐらい見ていて、youtuberもはじめしゃちょーぐらいしか見てませんでした。&lt;/p>
+&lt;p>いつも通りニコニコ動画のランキングをチェックしていたときにたまたま見た動画が「バーチャルYoutuberオススメセット」でした&lt;/p>
+&lt;p>この頃はまだ&lt;strong>VTuberの数はギリギリ全部追いかけられる程しかなく&lt;/strong>、ニコニコ動画にはVTuberのまとめ動画が日刊のように上がってました(今思うと最古の切り抜き動画ですね)&lt;/p>
+&lt;p>そこで出会ったのがぽんぽこチャンネルでした。他のVTuberと違って実写動画を入れているのが新鮮だと思ったのを覚えています。まさか動画2本目で猿を探しに行くとは。&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/tY0_zaxzxxo?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
+&lt;/div>
+&lt;p>ここらへんからぽんぽこを中心にVTuberに興味が出てきて、チャンネル登録したりニコニコ動画でまとめを見たりしてました。&lt;/p>
+&lt;h2 id="ピーナッツくんの声真似">ピーナッツくんの声真似&lt;/h2>
+&lt;p>そんなこんなでVTuberを見始めていて、VTuber界隈が盛り上がってきたな〜というところでニコニコ超会議2018で&lt;a href="https://chokaigi.jp/2018/booth/vtubar.html">超バーチャルYouTu&amp;quot;BAR&amp;quot;&lt;/a>というイベントがありました。&lt;/p>
+&lt;p>内容はお客さんがVTuberと話したり相談したりするイベントで、自分も生放送でぼんやり見てました。&lt;/p>
+&lt;p>そこで、月ノ美兎委員長が出ていた回でとあるお客さんがピーナッツくんのモノマネを披露していたのが自分のピーナッツくんとの(間接的な)出会いでした。&lt;/p>
+&lt;p>これの13:00辺りから&lt;/p></description></item></channel></rss>
