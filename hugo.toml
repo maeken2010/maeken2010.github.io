@@ -14,5 +14,9 @@ googleAnalytics = "G-XM1ZYSQ1EX"
   url = "https://twitter.com/maeken2010"
 
   [[params.socialIcons]]
+  name = "bluesky"
+  url = "https://bsky.app/profile/maeken2010.bsky.social"
+
+  [[params.socialIcons]]
   name = "github"
   url = "https://github.com/maeken2010"
