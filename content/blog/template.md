@@ -14,3 +14,15 @@ draft = true
 ![](/images/250315/1.jpeg)
 
 {{< figure src="/images/IMG_2481.jpg" title="激うまだったカレー" class="center" >}}
+
+
+OGP画像はFrontmatterに書く
+
+```
++++
+images = ['/images/20250503/10.jpg']
++++
+```
+
+https://ryomayama.com/2024/12/21/set-fallback-for-opengraph-image-in-hugo-papermod/
+https://gohugo.io/content-management/front-matter/
